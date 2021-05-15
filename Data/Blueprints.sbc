@@ -8,10 +8,10 @@
         <SubtypeId>Nanotubes</SubtypeId>
       </Id>
       <DisplayName>Nanotubes</DisplayName>
-      <Icon>Textures\GUI\Icons\nanites.dds</Icon>
+      <Icon>Textures\GUI\Icons\nanotubes.dds</Icon>
 
       <Prerequisites>
-        <Item Amount="8" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
+        <Item Amount="14" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
         <Item Amount="250" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="210" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="120" TypeId="Ingot" SubtypeId="Platinum" />
@@ -28,7 +28,7 @@
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
       <DisplayName>MolecularMotor</DisplayName>
-      <Icon>Textures\GUI\Icons\bkchamber.png</Icon>
+      <Icon>Textures\GUI\Icons\molecular_motor.dds</Icon>
 
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
@@ -39,7 +39,7 @@
       </Prerequisites>
       
       <Result Amount="1" TypeId="Component" SubtypeId="MolecularMotor" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 

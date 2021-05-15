@@ -16,13 +16,13 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\H2-Generator\GanymedeH2GeneratorSG.mwm</Model>
 			<Components>
-				<Component Count="30" Subtype="SteelPlate"/>
+				<Component Count="60" Subtype="SteelPlate"/>
 				<Component Count="20" Subtype="Nanotubes"/>
-				<Component Count="50" Subtype="Construction"/>
-				<Component Count="3" Subtype="LargeTube"/>
-				<Component Count="20" Subtype="Motor"/>
-				<Component Count="35" Subtype="Computer"/>
-				<Component Count="30" Subtype="SteelPlate"/>
+				<Component Count="200" Subtype="Construction"/>
+				<Component Count="8" Subtype="LargeTube"/>
+				<Component Count="50" Subtype="Motor"/>
+				<Component Count="80" Subtype="Computer"/>
+				<Component Count="40" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -108,15 +108,15 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\H2-Generator\GanymedeH2Generator.mwm</Model>
 			<Components>
-				<Component Count="330" Subtype="SteelPlate"/>
+				<Component Count="680" Subtype="SteelPlate"/>
 				<Component Subtype="Nanotubes" Count="180"/>
-				<Component Count="50" Subtype="Construction"/>
-				<Component Count="15" Subtype="BulletproofGlass"/>
-				<Component Count="12" Subtype="LargeTube"/>
-				<Component Count="25" Subtype="Computer"/>
-				<Component Count="50" Subtype="Construction"/>
-				<Component Count="20" Subtype="BulletproofGlass"/>
-				<Component Count="45" Subtype="SteelPlate"/>
+				<Component Count="150" Subtype="Construction"/>
+				<Component Count="85" Subtype="BulletproofGlass"/>
+				<Component Count="36" Subtype="LargeTube"/>
+				<Component Count="80" Subtype="Computer"/>
+				<Component Count="120" Subtype="Construction"/>
+				<Component Count="62" Subtype="BulletproofGlass"/>
+				<Component Count="145" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -200,16 +200,16 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Refinery\GanymedeRefinery.mwm</Model>
 			<Components>
-				<Component Count="1100" Subtype="SteelPlate"/>
+				<Component Count="2100" Subtype="SteelPlate"/>
 				<Component Subtype="Nanotubes" Count="600"/>
-				<Component Count="100" Subtype="Construction"/>
-				<Component Count="46" Subtype="LargeTube"/>
-				<Component Count="45" Subtype="Motor"/>
-				<Component Count="3" Subtype="GravityGenerator"/>
+				<Component Count="200" Subtype="Construction"/>
+				<Component Count="82" Subtype="LargeTube"/>
+				<Component Count="90" Subtype="Motor"/>
+				<Component Count="12" Subtype="GravityGenerator"/>
+				<Component Count="80" Subtype="MetalGrid"/>
+				<Component Count="120" Subtype="Computer"/>
 				<Component Count="40" Subtype="MetalGrid"/>
-				<Component Count="45" Subtype="Computer"/>
-				<Component Count="20" Subtype="MetalGrid"/>
-				<Component Count="100" Subtype="SteelPlate"/>
+				<Component Count="260" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -284,11 +284,11 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Refinery\GanymedeBasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="Nanotubes" Count="50"/>
-				<Component Subtype="Construction" Count="20"/>
-				<Component Subtype="Motor" Count="10"/>
-				<Component Subtype="Computer" Count="10"/>
+				<Component Subtype="Construction" Count="60"/>
+				<Component Subtype="Motor" Count="40"/>
+				<Component Subtype="Computer" Count="40"/>
 				<Component Subtype="SteelPlate" Count="20"/>
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
@@ -356,14 +356,14 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Assembler\GanymedeAssembler.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="175"/>
+				<Component Subtype="SteelPlate" Count="680"/>
 				<Component Subtype="Nanotubes" Count="80"/>
-				<Component Subtype="Construction" Count="125"/>
-				<Component Subtype="Motor" Count="100"/>
-				<Component Subtype="Display" Count="25"/>
-				<Component Subtype="MetalGrid" Count="30"/>
-				<Component Subtype="Computer" Count="265"/>
-				<Component Subtype="SteelPlate" Count="60"/>
+				<Component Subtype="Construction" Count="360"/>
+				<Component Subtype="Motor" Count="300"/>
+				<Component Subtype="Display" Count="80"/>
+				<Component Subtype="MetalGrid" Count="60"/>
+				<Component Subtype="Computer" Count="680"/>
+				<Component Subtype="SteelPlate" Count="260"/>
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
@@ -500,12 +500,12 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Module\GanymedeSpeedModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SteelPlate" Count="200"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
-				<Component Subtype="Construction" Count="80"/>
-				<Component Subtype="SmallTube" Count="35"/>
-				<Component Subtype="Computer" Count="100"/>
-				<Component Subtype="SteelPlate" Count="45"/>
+				<Component Subtype="Construction" Count="180"/>
+				<Component Subtype="SmallTube" Count="80"/>
+				<Component Subtype="Computer" Count="200"/>
+				<Component Subtype="SteelPlate" Count="90"/>
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
@@ -551,13 +551,13 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Module\GanymedeYieldModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
-				<Component Subtype="Construction" Count="80"/>
+				<Component Subtype="Construction" Count="280"/>
 				<Component Subtype="SmallTube" Count="25"/>
-				<Component Subtype="Superconductor" Count="50"/>
-				<Component Subtype="Computer" Count="30"/>
-				<Component Subtype="SteelPlate" Count="35"/>
+				<Component Subtype="Superconductor" Count="80"/>
+				<Component Subtype="Computer" Count="300"/>
+				<Component Subtype="SteelPlate" Count="90"/>
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<MountPoints>
@@ -608,13 +608,13 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Module\GanymedePowerModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
-				<Component Subtype="Construction" Count="80"/>
-				<Component Subtype="SmallTube" Count="30"/>
-				<Component Subtype="PowerCell" Count="40"/>
-				<Component Subtype="Computer" Count="25"/>
-				<Component Subtype="SteelPlate" Count="25"/>
+				<Component Subtype="Construction" Count="280"/>
+				<Component Subtype="SmallTube" Count="80"/>
+				<Component Subtype="PowerCell" Count="120"/>
+				<Component Subtype="Computer" Count="250"/>
+				<Component Subtype="SteelPlate" Count="250"/>
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0"/>
 			<MountPoints>
@@ -659,17 +659,17 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cargo\GanymedeLargeBlockSmallContainer.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="65"/>
+				<Component Subtype="SteelPlate" Count="265"/>
 				<Component Subtype="Nanotubes" Count="30"/>
-				<Component Subtype="InteriorPlate" Count="30"/>
-				<Component Subtype="Construction" Count="85"/>
-				<Component Subtype="MetalGrid" Count="45"/>
-				<Component Subtype="SmallTube" Count="60"/>
-				<Component Subtype="Motor" Count="30"/>
-				<Component Subtype="Display" Count="35"/>
-				<Component Subtype="Computer" Count="100"/>
-				<Component Subtype="Construction" Count="80"/>
-				<Component Subtype="InteriorPlate" Count="65"/>
+				<Component Subtype="InteriorPlate" Count="230"/>
+				<Component Subtype="Construction" Count="285"/>
+				<Component Subtype="MetalGrid" Count="80"/>
+				<Component Subtype="SmallTube" Count="160"/>
+				<Component Subtype="Motor" Count="90"/>
+				<Component Subtype="Display" Count="120"/>
+				<Component Subtype="Computer" Count="200"/>
+				<Component Subtype="Construction" Count="180"/>
+				<Component Subtype="InteriorPlate" Count="165"/>
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
@@ -713,17 +713,17 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cargo\GanymedeLargeBlockLargeContainer.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="240"/>
+				<Component Subtype="SteelPlate" Count="680"/>
 				<Component Subtype="Nanotubes" Count="120"/>
-				<Component Subtype="InteriorPlate" Count="425"/>
+				<Component Subtype="InteriorPlate" Count="900"/>
 				<Component Subtype="Construction" Count="170"/>
-				<Component Subtype="MetalGrid" Count="65"/>
+				<Component Subtype="MetalGrid" Count="90"/>
 				<Component Subtype="SmallTube" Count="132"/>
-				<Component Subtype="Motor" Count="64"/>
-				<Component Subtype="Display" Count="35"/>
-				<Component Subtype="Computer" Count="75"/>
+				<Component Subtype="Motor" Count="164"/>
+				<Component Subtype="Display" Count="135"/>
+				<Component Subtype="Computer" Count="175"/>
 				<Component Subtype="Construction" Count="175"/>
-				<Component Subtype="InteriorPlate" Count="123"/>
+				<Component Subtype="InteriorPlate" Count="240"/>
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>

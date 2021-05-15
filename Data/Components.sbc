@@ -7,7 +7,7 @@
         <SubtypeId>Nanotubes</SubtypeId>
       </Id>
       <DisplayName>Nanotubes</DisplayName>
-      <Icon>Textures\GUI\Icons\nanites.dds</Icon>
+      <Icon>Textures\GUI\Icons\nanotubes.dds</Icon>
 
       <Size>
         <X>0.2</X>
@@ -29,7 +29,7 @@
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
       <DisplayName>Molecular Motor</DisplayName>
-      <Icon>Textures\GUI\Icons\bkchamber.png</Icon>
+      <Icon>Textures\GUI\Icons\molecular_motor.dds</Icon>
 
       <Size>
         <X>0.2</X>

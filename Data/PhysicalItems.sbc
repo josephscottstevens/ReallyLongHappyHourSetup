@@ -19,7 +19,7 @@
             <Volume>0.127</Volume>
             <Model>Models\Components\Sphere.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <IconSymbol>IconSymbol_Pt</IconSymbol>
+            <IconSymbol></IconSymbol>
             <CanPlayerOrder>true</CanPlayerOrder>
 
         </PhysicalItem>
