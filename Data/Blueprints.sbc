@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nanotubes</SubtypeId>
+      </Id>
+      <DisplayName>Nanotubes</DisplayName>
+      <Icon>Textures\GUI\Icons\nanites.dds</Icon>
+
+      <Prerequisites>
+        <Item Amount="8" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="210" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="120" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+
+      <Result Amount="1" TypeId="Component" SubtypeId="Nanotubes" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MolecularMotor</SubtypeId>
+      </Id>
+      <DisplayName>MolecularMotor</DisplayName>
+      <Icon>Textures\GUI\Icons\bkchamber.png</Icon>
+
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
+        <Item Amount="420" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="680" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="160" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="140" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      
+      <Result Amount="1" TypeId="Component" SubtypeId="MolecularMotor" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

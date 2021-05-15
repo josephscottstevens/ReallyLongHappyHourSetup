@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!-- Created by enenra's ContainerType Editor on: 2019-08-20 17:43 -->
+<!-- https://docs.google.com/spreadsheets/d/1_s1o03enFuZxV-OrH-ufegozE_usZcfHkKI_JOXck7A/edit#gid=0 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+	
+		<ContainerType CountMin="1" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Small</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Medium</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="30" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Large</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="60" AmountMax="180">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="12">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-ExtraLarge</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="180" AmountMax="300">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+		
+	</ContainerTypes>																									
+</Definitions>																										

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>StrangeMatterCanister</SubtypeId>
+            </Id>
+            <DisplayName>Strange Matter</DisplayName>
+            <Icon>Textures\GUI\Icons\canister.dds</Icon>
+
+            <Size>
+                <X>0.05</X>
+                <Y>0.05</Y>
+                <Z>0.05</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.127</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>IconSymbol_Pt</IconSymbol>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+        </PhysicalItem>
+        
+    </PhysicalItems>
+</Definitions>

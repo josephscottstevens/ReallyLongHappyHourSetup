@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Behavior-Hover</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:Reaver-Autopilot-Hover-A]
+        [SecondaryAutopilotData:Reaver-Autopilot-Hover-B]
+
+        [TargetData:Reaver-Target-ShortRange]
+        [OverrideTargetData:Reaver-Target-Main-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:true]
+
+        [Triggers:Reaver-Trigger-GrindDamageHover]
+        [TriggerGroups:Reaver-TriggerGroup-Common-B]
+        [TriggerGroups:Reaver-TriggerGroup-HydrogenManB]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Autopilot-Hover-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:true]
+        [WaypointTolerance:20]
+        [IdealMinSpeed:10]
+        [IdealMaxSpeed:15]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:5]
+
+        [UseSurfaceHoverThrustMode:true]
+        [MinimumPlanetAltitude:18]
+        [IdealPlanetAltitude:25]
+        [AltitudeTolerance:3]
+        [MaxVerticalSpeed:6]
+
+        [MinAngleForLeveledDescent:100]
+        [MaxAngleForLeveledAscent:90]
+
+        [AllowStrafing:false]
+
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Autopilot-Hover-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:true]
+        [WaypointTolerance:20]
+        [IdealMinSpeed:10]
+        [IdealMaxSpeed:30]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:5]
+
+        [UseSurfaceHoverThrustMode:true]
+        [MinimumPlanetAltitude:18]
+        [IdealPlanetAltitude:25]
+        [AltitudeTolerance:3]
+        [MaxVerticalSpeed:6]
+
+        [MinAngleForLeveledDescent:100]
+        [MaxAngleForLeveledAscent:90]
+
+        [AllowStrafing:false]
+
+        [EngageDistancePlanet:150]
+        [DisengageDistancePlanet:150]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

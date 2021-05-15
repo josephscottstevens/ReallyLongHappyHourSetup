@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId>GTECH_SG_ElectrolyticDivider</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Electrolytic Divider</DisplayName>
+			<Icon>Textures\GUI\Icons\h2GeneratorSG.png</Icon>
+			<Description>The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to create high amounts of hydrogen and oxygen from ice. 3x Faster then Standard H2 Generator</Description>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<Center x="0" y="0" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\H2-Generator\GanymedeH2GeneratorSG.mwm</Model>
+			<Components>
+				<Component Count="30" Subtype="SteelPlate"/>
+				<Component Count="20" Subtype="Nanotubes"/>
+				<Component Count="50" Subtype="Construction"/>
+				<Component Count="3" Subtype="LargeTube"/>
+				<Component Count="20" Subtype="Motor"/>
+				<Component Count="35" Subtype="Computer"/>
+				<Component Count="30" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="Computer"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.60"/>
+				<MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.60"/>
+				<MountPoint Side="Left" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.60"/>
+				<MountPoint Side="Right" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.60"/>
+				<MountPoint Side="Top" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.20"/>
+				<MountPoint Side="Bottom" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.20"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS3.mwm"/>
+			</BuildProgressModels>
+			<Center x="1" y="1" z="0"/>
+			<BuildTimeSeconds>600</BuildTimeSeconds>
+			<EdgeType>Light</EdgeType>
+			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+			<InventoryMaxVolume>1.92</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.65</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>30.0</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>25.0</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+			<BlueprintClasses>
+				<Class>Ice</Class>
+				<Class>OxygenBottles</Class>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
+			<BlockPairName>GanymedeElectrolyticDivider</BlockPairName>
+			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
+			<DamageEffectId>213</DamageEffectId>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<GenerateSound>BlockOxyGenProcess</GenerateSound>
+			<IdleSound>BlockOxyGenIdle</IdleSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>50</PCU>
+			<MirroringX>Z</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+			<FuelPullAmountFromConveyorInMinutes>2.84</FuelPullAmountFromConveyorInMinutes>
+			<TieredUpdateTimes>
+				<unsignedInt>315</unsignedInt>
+				<unsignedInt>640</unsignedInt>
+				<unsignedInt>1265</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId>GTECH_LG_ElectrolyticDivider</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Electrolytic Divider</DisplayName>
+			<Icon>Textures\GUI\Icons\h2Generator.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<Description>The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to create high amounts of hydrogen and oxygen from ice. 3x Faster then standard H2 Generator.</Description>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\H2-Generator\GanymedeH2Generator.mwm</Model>
+			<Components>
+				<Component Count="330" Subtype="SteelPlate"/>
+				<Component Subtype="Nanotubes" Count="180"/>
+				<Component Count="50" Subtype="Construction"/>
+				<Component Count="15" Subtype="BulletproofGlass"/>
+				<Component Count="12" Subtype="LargeTube"/>
+				<Component Count="25" Subtype="Computer"/>
+				<Component Count="50" Subtype="Construction"/>
+				<Component Count="20" Subtype="BulletproofGlass"/>
+				<Component Count="45" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="Computer"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+			</MountPoints>
+			<IsAirTight>true</IsAirTight>
+			<MirroringY>X</MirroringY>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\H2-Generator\GanymedeH2Generator_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\H2-Generator\GanymedeH2Generator_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\H2-Generator\GanymedeH2Generator_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeElectrolyticDivider</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<IceConsumptionPerSecond>50</IceConsumptionPerSecond>
+			<InventoryMaxVolume>5.5</InventoryMaxVolume>
+			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.08</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.95</OperationalPowerConsumption>
+			<ProducedGases>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Oxygen</SubtypeId>
+					</Id>
+					<IceToGasRatio>15.00</IceToGasRatio>
+				</GasInfo>
+				<GasInfo>
+					<Id>
+						<TypeId>GasProperties</TypeId>
+						<SubtypeId>Hydrogen</SubtypeId>
+					</Id>
+					<IceToGasRatio>30</IceToGasRatio>
+				</GasInfo>
+			</ProducedGases>
+			<BlueprintClasses>
+				<Class>Ice</Class>
+				<Class>OxygenBottles</Class>
+				<Class>HydrogenBottles</Class>
+			</BlueprintClasses>
+			<DamageEffectId>213</DamageEffectId>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<GenerateSound>BlockOxyGenProcess</GenerateSound>
+			<IdleSound>BlockOxyGenIdle</IdleSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>50</PCU>
+			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+			<FuelPullAmountFromConveyorInMinutes>2.27</FuelPullAmountFromConveyorInMinutes>
+			<TieredUpdateTimes>
+				<unsignedInt>315</unsignedInt>
+				<unsignedInt>635</unsignedInt>
+				<unsignedInt>1265</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>GanymedeRefinery</SubtypeId>
+			</Id>
+			<PCU>115</PCU>
+			<DisplayName>Ganymede Refinery</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeRefinery.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="3" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Refinery\GanymedeRefinery.mwm</Model>
+			<Components>
+				<Component Count="1100" Subtype="SteelPlate"/>
+				<Component Subtype="Nanotubes" Count="600"/>
+				<Component Count="100" Subtype="Construction"/>
+				<Component Count="46" Subtype="LargeTube"/>
+				<Component Count="45" Subtype="Motor"/>
+				<Component Count="3" Subtype="GravityGenerator"/>
+				<Component Count="40" Subtype="MetalGrid"/>
+				<Component Count="45" Subtype="Computer"/>
+				<Component Count="20" Subtype="MetalGrid"/>
+				<Component Count="100" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="Computer"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.02" StartY="0.02" EndX="1.98" EndY="2.98"/>
+				<MountPoint Side="Back" StartX="0.01" StartY="0.00" EndX="1.99" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.01" EndX="2.00" EndY="2.99"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.24" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeRefinery</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<Description>The Ganymede Refinery breaks down Ore at the molecular level and reconstructs it into Ingots that is used by Assemblers. Using Ganymede Technology this refinery can reconstruct ingots at 3x faster</Description>
+			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>8.5</InventoryMaxVolume>
+			<InventorySize>
+				<X>2.5</X>
+				<Y>2.5</Y>
+				<Z>2.5</Z>
+			</InventorySize>
+			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+			<DeformationRatio>0.05</DeformationRatio>
+			<StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.9</OperationalPowerConsumption>
+			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
+			<BlueprintClasses>
+				<Class>Ingots</Class>
+				<Class>IngotsTitanium_LWTS</Class>
+				<Class>LWTSX_Rarium</Class>
+			</BlueprintClasses>
+			<RefineSpeed>3.0</RefineSpeed>
+			<MaterialEfficiency>1.16</MaterialEfficiency>
+			<OreAmountPerPullRequest>3750</OreAmountPerPullRequest>
+			<Center x="1" y="0" z="1"/>
+			<MirroringZ>Y</MirroringZ>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+			<GeneralDamageMultiplier>0.99</GeneralDamageMultiplier>
+			<UsesDeformation>false</UsesDeformation>
+			<TieredUpdateTimes>
+				<unsignedInt>70</unsignedInt>
+				<unsignedInt>150</unsignedInt>
+				<unsignedInt>275</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+			<Id>
+				<TypeId>Refinery</TypeId>
+				<SubtypeId>GanymedeBasicRefinery</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Basic Refinery</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeBasicRefinery.png</Icon>
+			<Description>The Basic Ganymede Refinery breaks down Ore at the molecular level and reconstructs it into Ingots that is used by Assemblers. Using Ganymede Technology this refinery create ingots at 2x faster however is limited to the types of ingots it can create.</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Refinery\GanymedeBasicRefinery.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="Nanotubes" Count="50"/>
+				<Component Subtype="Construction" Count="20"/>
+				<Component Subtype="Motor" Count="10"/>
+				<Component Subtype="Computer" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Refinery\GanymedeBasicRefinery_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Refinery\GanymedeBasicRefinery_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Refinery\GanymedeBasicRefinery_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeBasicRefinery</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>400</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>CommonMetals</Class>
+			</BlueprintClasses>
+			<RefineSpeed>1.30</RefineSpeed>
+			<MaterialEfficiency>0.7</MaterialEfficiency>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockRafinery</PrimarySound>
+			<ActionSound>BlockRafineryProcess</ActionSound>
+			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+			<PCU>75</PCU>
+			<TieredUpdateTimes>
+				<unsignedInt>60</unsignedInt>
+				<unsignedInt>120</unsignedInt>
+				<unsignedInt>240</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>GanymedeAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Assembler</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeAssembler.dds</Icon>
+			<Description>The Ganymede Assembler works 3x faster then a standard assembler.</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Assembler\GanymedeAssembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="175"/>
+				<Component Subtype="Nanotubes" Count="80"/>
+				<Component Subtype="Construction" Count="125"/>
+				<Component Subtype="Motor" Count="100"/>
+				<Component Subtype="Display" Count="25"/>
+				<Component Subtype="MetalGrid" Count="30"/>
+				<Component Subtype="Computer" Count="265"/>
+				<Component Subtype="SteelPlate" Count="60"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Assembler\GanymedeAssembler_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Assembler\GanymedeAssembler_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Assembler\GanymedeAssembler_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeAssembler</BlockPairName>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>1650</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>4</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.075</StandbyPowerConsumption>
+			<AssemblySpeed>3.0</AssemblySpeed>
+			<AssemblerPriority>5</AssemblerPriority>
+			<OperationalPowerConsumption>1.55</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>LargeBlocks</Class>
+				<Class>SmallBlocks</Class>
+				<Class>Components</Class>
+				<Class>EliteTools</Class>
+				<Class>BuildPlanner</Class>
+				<Class>EliteConsumables</Class>
+			</BlueprintClasses>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>60</unsignedInt>
+				<unsignedInt>120</unsignedInt>
+				<unsignedInt>240</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>GanymedeBasicAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Basic Assembler</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeBasicAssembler.png</Icon>
+			<Description>The Ganymede Basic Assembler operaters at 2x the standard speed.</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Assembler\GanymedeBasicAssembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="Nanotubes" Count="50"/>
+				<Component Subtype="Construction" Count="50"/>
+				<Component Subtype="Motor" Count="15"/>
+				<Component Subtype="Display" Count="10"/>
+				<Component Subtype="Computer" Count="100"/>
+				<Component Subtype="SteelPlate" Count="40"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Assembler\GanymedeBasicAssembler_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Assembler\GanymedeBasicAssembler_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Assembler\GanymedeBasicAssembler_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeBasicAssembler</BlockPairName>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>400</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>2</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.28</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>SimpleComponents</Class>
+				<Class>Tools</Class>
+				<Class>Consumables</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1.4</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>60</unsignedInt>
+				<unsignedInt>120</unsignedInt>
+				<unsignedInt>240</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+			<Id>
+				<TypeId>UpgradeModule</TypeId>
+				<SubtypeId>GanymedeSpeedModule</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Speed Module</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeSpeedModule.png</Icon>
+			<Description>The Ganymede Speed Module is 1/2 the size of a standard speed module while allowing for a 25% increase in speed compared to standard.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Module\GanymedeSpeedModule.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="MolecularMotor" Count="40"/>
+				<Component Subtype="Construction" Count="80"/>
+				<Component Subtype="SmallTube" Count="35"/>
+				<Component Subtype="Computer" Count="100"/>
+				<Component Subtype="SteelPlate" Count="45"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedeSpeedModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedeSpeedModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedeSpeedModule_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeSpeedModule</BlockPairName>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<Upgrades>
+				<MyUpgradeModuleInfo>
+					<UpgradeType>Productivity</UpgradeType>
+					<Modifier>0.75</Modifier>
+					<ModifierType>Additive</ModifierType>
+				</MyUpgradeModuleInfo>
+			</Upgrades>
+			<PrimarySound>BlockModuleProductivity</PrimarySound>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>1</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+			<Id>
+				<TypeId>UpgradeModule</TypeId>
+				<SubtypeId>GanymedeYieldModule</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Yield Module</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeYieldModule.png</Icon>
+			<Description>The Ganymede Yield Module is 1/2 the size of a standard yield module while allowing for a 10% higher yield. </Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Module\GanymedeYieldModule.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="MolecularMotor" Count="40"/>
+				<Component Subtype="Construction" Count="80"/>
+				<Component Subtype="SmallTube" Count="25"/>
+				<Component Subtype="Superconductor" Count="50"/>
+				<Component Subtype="Computer" Count="30"/>
+				<Component Subtype="SteelPlate" Count="35"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedeYieldModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedeYieldModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedeYieldModule_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeYieldModule</BlockPairName>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<Upgrades>
+				<MyUpgradeModuleInfo>
+					<UpgradeType>Effectiveness</UpgradeType>
+					<Modifier>1.1229</Modifier>
+					<ModifierType>Multiplicative</ModifierType>
+				</MyUpgradeModuleInfo>
+				<MyUpgradeModuleInfo>
+					<UpgradeType>PowerEfficiency</UpgradeType>
+					<Modifier>-0.075</Modifier>
+					<ModifierType>Additive</ModifierType>
+				</MyUpgradeModuleInfo>
+			</Upgrades>
+			<PrimarySound>BlockModuleEffectiveness</PrimarySound>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>1</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+			<Id>
+				<TypeId>UpgradeModule</TypeId>
+				<SubtypeId>GanymedePowerModule</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Power Efficiency Module</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedePowerModule.png</Icon>
+			<Description>The Ganymede Power Module is 1/2 the size of a standard power module while allowing for a 20% Power Efficiency rating.</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Module\GanymedePowerModule.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="MolecularMotor" Count="40"/>
+				<Component Subtype="Construction" Count="80"/>
+				<Component Subtype="SmallTube" Count="30"/>
+				<Component Subtype="PowerCell" Count="40"/>
+				<Component Subtype="Computer" Count="25"/>
+				<Component Subtype="SteelPlate" Count="25"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedePowerModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedePowerModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedePowerModule_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedePowerModule</BlockPairName>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<Upgrades>
+				<MyUpgradeModuleInfo>
+					<UpgradeType>PowerEfficiency</UpgradeType>
+					<Modifier>1.4228445</Modifier>
+					<ModifierType>Multiplicative</ModifierType>
+				</MyUpgradeModuleInfo>
+			</Upgrades>
+			<PrimarySound>BlockModuleEfficiency</PrimarySound>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>1</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>GanymedeLargeBlockSmallContainer</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Small Cargo Container</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeLargeBlockSmallContainer.png</Icon>
+			<Description>Using Ganymede Tech we were able to store 4.7x more material the a standard cargo container</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cargo\GanymedeLargeBlockSmallContainer.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="65"/>
+				<Component Subtype="Nanotubes" Count="30"/>
+				<Component Subtype="InteriorPlate" Count="30"/>
+				<Component Subtype="Construction" Count="85"/>
+				<Component Subtype="MetalGrid" Count="45"/>
+				<Component Subtype="SmallTube" Count="60"/>
+				<Component Subtype="Motor" Count="30"/>
+				<Component Subtype="Display" Count="35"/>
+				<Component Subtype="Computer" Count="100"/>
+				<Component Subtype="Construction" Count="80"/>
+				<Component Subtype="InteriorPlate" Count="65"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeLargeBlockSmallContainer</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>800</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>GanymedeLargeBlockLargeContainer</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Large Cargo Container</DisplayName>
+			<Icon>Textures\GUI\Icons\GanymedeLargeBlockLargeContainer.png</Icon>
+			<Description>Using Ganymede Tech we were able to store 4.7x more material the a standard cargo container</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cargo\GanymedeLargeBlockLargeContainer.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="240"/>
+				<Component Subtype="Nanotubes" Count="120"/>
+				<Component Subtype="InteriorPlate" Count="425"/>
+				<Component Subtype="Construction" Count="170"/>
+				<Component Subtype="MetalGrid" Count="65"/>
+				<Component Subtype="SmallTube" Count="132"/>
+				<Component Subtype="Motor" Count="64"/>
+				<Component Subtype="Display" Count="35"/>
+				<Component Subtype="Computer" Count="75"/>
+				<Component Subtype="Construction" Count="175"/>
+				<Component Subtype="InteriorPlate" Count="123"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeLargeBlockLargeContainer</BlockPairName>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>10</PCU>
+		</Definition>
+	</CubeBlocks>
+	<EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>GanymedeLargeBlockLargeContainer</SubtypeId>
+			</Id>
+			<Size x="12.6002" y="12.6002" z="12.6002"/>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>GanymedeLargeBlockSmallContainer</SubtypeId>
+			</Id>
+			<Size x="4.2" y="4.2" z="4.2"/>
+		</EntityComponent>
+	</EntityComponents>
+	<EntityContainers>
+		<Container>
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>GanymedeLargeBlockLargeContainer</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory"/>
+			</DefaultComponents>
+		</Container>
+		<Container>
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>GanymedeLargeBlockSmallContainer</SubtypeId>
+			</Id>
+			<DefaultComponents>
+				<Component BuilderType="MyObjectBuilder_Inventory"/>
+			</DefaultComponents>
+		</Container>
+	</EntityContainers>
+</Definitions>
