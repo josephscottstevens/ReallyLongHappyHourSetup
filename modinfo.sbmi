@@ -4,11 +4,7 @@
   <WorkshopId>0</WorkshopId>
   <WorkshopIds>
     <WorkshopId>
-      <Id>2487459540</Id>
-      <ServiceName>Steam</ServiceName>
-    </WorkshopId>
-    <WorkshopId>
-      <Id>929032</Id>
+      <Id>932269</Id>
       <ServiceName>mod.io</ServiceName>
     </WorkshopId>
   </WorkshopIds>
