@@ -10,13 +10,13 @@
       <Icon>Textures\GUI\Icons\nanotubes.dds</Icon>
 
       <Size>
-        <X>0.2</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
+        <X>1.2</X>
+        <Y>1.1</Y>
+        <Z>1.1</Z>
       </Size>
       <Mass>8</Mass>
       <Volume>2</Volume>
-      <Model>Models\Components\small_tube_component.mwm</Model>
+      <Model>Models\Nanotubes3.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.5</DropProbability>

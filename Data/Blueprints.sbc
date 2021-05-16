@@ -27,7 +27,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
-      <DisplayName>MolecularMotor</DisplayName>
+      <DisplayName>Molecular Motor</DisplayName>
       <Icon>Textures\GUI\Icons\molecular_motor.dds</Icon>
 
       <Prerequisites>
