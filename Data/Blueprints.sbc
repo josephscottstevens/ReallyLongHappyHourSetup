@@ -8,7 +8,7 @@
         <SubtypeId>Nanotubes</SubtypeId>
       </Id>
       <DisplayName>Nanotubes</DisplayName>
-      <Icon>Textures\GUI\Icons\nanotubes.dds</Icon>
+      <Icon>Textures\nanotubes.dds</Icon>
 
       <Prerequisites>
         <Item Amount="14" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
@@ -28,7 +28,7 @@
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
       <DisplayName>Molecular Motor</DisplayName>
-      <Icon>Textures\GUI\Icons\molecular_motor.dds</Icon>
+      <Icon>Textures\molecular_motor.dds</Icon>
 
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />

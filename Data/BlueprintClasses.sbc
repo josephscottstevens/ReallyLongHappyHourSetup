@@ -5,9 +5,9 @@
 
    <BlueprintClassEntries>
 
-	<Entry Class="Components" BlueprintSubtypeId="Nanotubes" />
-	<Entry Class="Components" BlueprintSubtypeId="MolecularMotor" />
-	<Entry Class="CommonMetals" BlueprintSubtypeId="StrangeMatterCanister" />
+      <Entry Class="Components" BlueprintSubtypeId="Nanotubes" />
+      <Entry Class="Components" BlueprintSubtypeId="MolecularMotor" />
+      <Entry Class="CommonMetals" BlueprintSubtypeId="StrangeMatterCanister" />
 
   </BlueprintClassEntries>
 </Definitions>
