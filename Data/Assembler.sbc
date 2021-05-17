@@ -14,7 +14,7 @@
 			<Size x="1" y="1" z="2"/>
 			<Center x="0" y="0" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\H2-Generator\GanymedeH2GeneratorSG.mwm</Model>
+			<Model>..\2483168442\Models\H2-Generator\GanymedeH2GeneratorSG.mwm</Model>
 			<Components>
 				<Component Count="60" Subtype="SteelPlate"/>
 				<Component Count="20" Subtype="Nanotubes"/>
@@ -34,9 +34,9 @@
 				<MountPoint Side="Bottom" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.20"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\H2-Generator\GanymedeH2GeneratorSG_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\H2-Generator\GanymedeH2GeneratorSG_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\H2-Generator\GanymedeH2GeneratorSG_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\H2-Generator\GanymedeH2GeneratorSG_BS3.mwm"/>
 			</BuildProgressModels>
 			<Center x="1" y="1" z="0"/>
 			<BuildTimeSeconds>600</BuildTimeSeconds>
@@ -100,13 +100,13 @@
 				<SubtypeId>GTECH_LG_ElectrolyticDivider</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Electrolytic Divider</DisplayName>
-			<Icon>Textures\GUI\Icons\h2Generator.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\h2Generator.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<Description>The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to create high amounts of hydrogen and oxygen from ice. 3x Faster then standard H2 Generator.</Description>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\H2-Generator\GanymedeH2Generator.mwm</Model>
+			<Model>..\2483168442\Models\H2-Generator\GanymedeH2Generator.mwm</Model>
 			<Components>
 				<Component Count="680" Subtype="SteelPlate"/>
 				<Component Subtype="Nanotubes" Count="180"/>
@@ -130,9 +130,9 @@
 			<IsAirTight>true</IsAirTight>
 			<MirroringY>X</MirroringY>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\H2-Generator\GanymedeH2Generator_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\H2-Generator\GanymedeH2Generator_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\H2-Generator\GanymedeH2Generator_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\H2-Generator\GanymedeH2Generator_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\H2-Generator\GanymedeH2Generator_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\H2-Generator\GanymedeH2Generator_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeElectrolyticDivider</BlockPairName>
 			<EdgeType>Light</EdgeType>
@@ -193,12 +193,12 @@
 			</Id>
 			<PCU>115</PCU>
 			<DisplayName>Ganymede Refinery</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeRefinery.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeRefinery.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="3" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Refinery\GanymedeRefinery.mwm</Model>
+			<Model>..\2483168442\Models\Refinery\GanymedeRefinery.mwm</Model>
 			<Components>
 				<Component Count="2100" Subtype="SteelPlate"/>
 				<Component Subtype="Nanotubes" Count="600"/>
@@ -221,12 +221,12 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.24" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
-				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+				<Model BuildPercentUpperBound="0.16" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.24" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="0.50" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.83" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_5.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeRefinery</BlockPairName>
 			<EdgeType>Light</EdgeType>
@@ -275,14 +275,14 @@
 				<SubtypeId>GanymedeBasicRefinery</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Basic Refinery</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeBasicRefinery.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeBasicRefinery.png</Icon>
 			<Description>The Basic Ganymede Refinery breaks down Ore at the molecular level and reconstructs it into Ingots that is used by Assemblers. Using Ganymede Technology this refinery create ingots at 2x faster however is limited to the types of ingots it can create.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Refinery\GanymedeBasicRefinery.mwm</Model>
+			<Model>..\2483168442\Models\Refinery\GanymedeBasicRefinery.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="Nanotubes" Count="50"/>
@@ -303,9 +303,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Refinery\GanymedeBasicRefinery_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Refinery\GanymedeBasicRefinery_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Refinery\GanymedeBasicRefinery_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Refinery\GanymedeBasicRefinery_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Refinery\GanymedeBasicRefinery_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Refinery\GanymedeBasicRefinery_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeBasicRefinery</BlockPairName>
 			<EdgeType>Light</EdgeType>
@@ -347,14 +347,14 @@
 				<SubtypeId>GanymedeAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Assembler</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeAssembler.dds</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeAssembler.dds</Icon>
 			<Description>The Ganymede Assembler works 3x faster then a standard assembler.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Assembler\GanymedeAssembler.mwm</Model>
+			<Model>..\2483168442\Models\Assembler\GanymedeAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="680"/>
 				<Component Subtype="Nanotubes" Count="80"/>
@@ -375,9 +375,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Assembler\GanymedeAssembler_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Assembler\GanymedeAssembler_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Assembler\GanymedeAssembler_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Assembler\GanymedeAssembler_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Assembler\GanymedeAssembler_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Assembler\GanymedeAssembler_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeAssembler</BlockPairName>
 			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
@@ -422,14 +422,14 @@
 				<SubtypeId>GanymedeBasicAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Basic Assembler</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeBasicAssembler.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeBasicAssembler.png</Icon>
 			<Description>The Ganymede Basic Assembler operaters at 2x the standard speed.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Assembler\GanymedeBasicAssembler.mwm</Model>
+			<Model>..\2483168442\Models\Assembler\GanymedeBasicAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100"/>
 				<Component Subtype="Nanotubes" Count="50"/>
@@ -449,9 +449,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Assembler\GanymedeBasicAssembler_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Assembler\GanymedeBasicAssembler_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Assembler\GanymedeBasicAssembler_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeBasicAssembler</BlockPairName>
 			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
@@ -492,13 +492,13 @@
 				<SubtypeId>GanymedeSpeedModule</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Speed Module</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeSpeedModule.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeSpeedModule.png</Icon>
 			<Description>The Ganymede Speed Module is 1/2 the size of a standard speed module while allowing for a 25% increase in speed compared to standard.</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Module\GanymedeSpeedModule.mwm</Model>
+			<Model>..\2483168442\Models\Module\GanymedeSpeedModule.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="200"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
@@ -512,9 +512,9 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedeSpeedModule_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedeSpeedModule_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedeSpeedModule_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Module\GanymedeSpeedModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Module\GanymedeSpeedModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Module\GanymedeSpeedModule_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeSpeedModule</BlockPairName>
 			<MirroringX>Z</MirroringX>
@@ -542,14 +542,14 @@
 				<SubtypeId>GanymedeYieldModule</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Yield Module</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeYieldModule.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeYieldModule.png</Icon>
 			<Description>The Ganymede Yield Module is 1/2 the size of a standard yield module while allowing for a 10% higher yield. </Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Module\GanymedeYieldModule.mwm</Model>
+			<Model>..\2483168442\Models\Module\GanymedeYieldModule.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
@@ -564,9 +564,9 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedeYieldModule_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedeYieldModule_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedeYieldModule_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Module\GanymedeYieldModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Module\GanymedeYieldModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Module\GanymedeYieldModule_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeYieldModule</BlockPairName>
 			<MirroringX>Z</MirroringX>
@@ -599,14 +599,14 @@
 				<SubtypeId>GanymedePowerModule</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Power Efficiency Module</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedePowerModule.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedePowerModule.png</Icon>
 			<Description>The Ganymede Power Module is 1/2 the size of a standard power module while allowing for a 20% Power Efficiency rating.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Module\GanymedePowerModule.mwm</Model>
+			<Model>..\2483168442\Models\Module\GanymedePowerModule.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="400"/>
 				<Component Subtype="MolecularMotor" Count="40"/>
@@ -621,9 +621,9 @@
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Module\GanymedePowerModule_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Module\GanymedePowerModule_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Module\GanymedePowerModule_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Module\GanymedePowerModule_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Module\GanymedePowerModule_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Module\GanymedePowerModule_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedePowerModule</BlockPairName>
 			<MirroringX>Z</MirroringX>
@@ -651,13 +651,13 @@
 				<SubtypeId>GanymedeLargeBlockSmallContainer</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Small Cargo Container</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeLargeBlockSmallContainer.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeLargeBlockSmallContainer.png</Icon>
 			<Description>Using Ganymede Tech we were able to store 4.7x more material the a standard cargo container</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cargo\GanymedeLargeBlockSmallContainer.mwm</Model>
+			<Model>..\2483168442\Models\Cargo\GanymedeLargeBlockSmallContainer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="265"/>
 				<Component Subtype="Nanotubes" Count="30"/>
@@ -681,9 +681,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cargo\GanymedeLargeBlockSmallContainer_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Cargo\GanymedeLargeBlockSmallContainer_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Cargo\GanymedeLargeBlockSmallContainer_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Cargo\GanymedeLargeBlockSmallContainer_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeLargeBlockSmallContainer</BlockPairName>
 			<MirroringY>Z</MirroringY>
@@ -704,14 +704,14 @@
 				<SubtypeId>GanymedeLargeBlockLargeContainer</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Large Cargo Container</DisplayName>
-			<Icon>Textures\GUI\Icons\GanymedeLargeBlockLargeContainer.png</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeLargeBlockLargeContainer.png</Icon>
 			<Description>Using Ganymede Tech we were able to store 4.7x more material the a standard cargo container</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cargo\GanymedeLargeBlockLargeContainer.mwm</Model>
+			<Model>..\2483168442\Models\Cargo\GanymedeLargeBlockLargeContainer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="680"/>
 				<Component Subtype="Nanotubes" Count="120"/>
@@ -735,9 +735,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cargo\GanymedeLargeBlockLargeContainer_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Cargo\GanymedeLargeBlockLargeContainer_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Cargo\GanymedeLargeBlockLargeContainer_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Cargo\GanymedeLargeBlockLargeContainer_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeLargeBlockLargeContainer</BlockPairName>
 			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>

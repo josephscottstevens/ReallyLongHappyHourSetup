@@ -38,7 +38,7 @@
       </Size>
       <Mass>8</Mass>
       <Volume>2</Volume>
-      <Model>Models\Components\motor_component.mwm</Model>
+      <Model>Models\molecular_motor.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.5</DropProbability>

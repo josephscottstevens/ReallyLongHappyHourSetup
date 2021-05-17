@@ -7,7 +7,7 @@
                 <TypeId>Ingot</TypeId>
                 <SubtypeId>StrangeMatterCanister</SubtypeId>
             </Id>
-            <DisplayName>Strange Matter</DisplayName>
+            <DisplayName>Strange Matter Canister</DisplayName>
             <Icon>Textures\canister.dds</Icon>
 
             <Size>
@@ -17,7 +17,7 @@
             </Size>
             <Mass>1</Mass>
             <Volume>0.127</Volume>
-            <Model>Models\Components\Sphere.mwm</Model>
+            <Model>Models\strange_matter_canister.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol></IconSymbol>
             <CanPlayerOrder>true</CanPlayerOrder>
