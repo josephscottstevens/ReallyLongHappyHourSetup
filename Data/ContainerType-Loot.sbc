@@ -13,7 +13,7 @@
 				<Item AmountMin="10" AmountMax="30">
 					<Frequency>1.0</Frequency>
 					<Id>
-						<TypeId>Component</TypeId>
+						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
@@ -29,7 +29,7 @@
 				<Item AmountMin="30" AmountMax="60">
 					<Frequency>1.0</Frequency>
 					<Id>
-						<TypeId>Component</TypeId>
+						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
@@ -45,7 +45,7 @@
 				<Item AmountMin="60" AmountMax="180">
 					<Frequency>1.0</Frequency>
 					<Id>
-						<TypeId>Component</TypeId>
+						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
@@ -61,7 +61,7 @@
 				<Item AmountMin="180" AmountMax="300">
 					<Frequency>1.0</Frequency>
 					<Id>
-						<TypeId>Component</TypeId>
+						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
