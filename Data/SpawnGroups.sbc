@@ -12,10 +12,10 @@
       [Modular Encounters Territory]
       [Name:Reaver Boneyard]
       [Type:Static]
-    [Radius:50000]
-    [CoordsX:940443.48]
-	  [CoordsY:43577.64]
-	  [CoordsZ:1642535.91]
+  [Radius:50000]
+  [CoordsX:940443.48]
+  [CoordsY:43577.64]
+  [CoordsZ:1642535.91]
       [AnnounceArriveDepart:true]
       [CustomArriveMessage: Welcome to the Boneyard. Be aware strange materials have been found here, you are most likely gonna die]
       [CustomDepartMessage: Leaving Boneyard. Lucky you and hopefully you didnt leave empty handed.]
@@ -44,7 +44,7 @@
 
       [MaxGravity:2]
 
-      [UseThreatLevelCheck:true]
+  [UseThreatLevelCheck:false]
       [ThreatLevelCheckRange:10000]
       [ThreatScoreMinimum:333]
 
@@ -126,7 +126,7 @@
 
         [MaxGravity:2]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -283,7 +283,7 @@
 
         [MaxGravity:2]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -362,7 +362,7 @@
 
         [MaxGravity:0.8]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -441,7 +441,7 @@
 
         [MaxGravity:2]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -523,7 +523,7 @@
 
         [MaxGravity:1]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -607,7 +607,7 @@
 
         [MaxGravity:1.5]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:999]
 
@@ -686,7 +686,7 @@
 
         [MaxGravity:1.1]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:999]
 
@@ -765,7 +765,7 @@
 
         [MaxGravity:1.1]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -837,7 +837,7 @@
 
         [MaxGravity:1.1]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:999]
 
@@ -994,7 +994,7 @@
         [NpcHydroThrustPowerMultiply:0.0001]
         [NpcHydroThrustForceMultiply:2]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -1151,7 +1151,7 @@
 
         [MaxGravity:1.3]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:666]
 
@@ -1221,7 +1221,7 @@
 
         [MaxGravity:0.6]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:2000]
 
@@ -1308,7 +1308,7 @@
 
         [MaxGravity:0.2]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:999]
 
@@ -1541,7 +1541,7 @@
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
 
-        [UseThreatLevelCheck:true]
+    [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:999]
 
