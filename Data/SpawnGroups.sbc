@@ -247,7 +247,7 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250000]
+        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
