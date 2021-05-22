@@ -7,7 +7,10 @@
 
       <Entry Class="Components" BlueprintSubtypeId="Nanotubes" />
       <Entry Class="Components" BlueprintSubtypeId="MolecularMotor" />
+
       <Entry Class="CommonMetals" BlueprintSubtypeId="StrangeMatterCanister" />
+
+      <Entry Class="Ingots" BlueprintSubtypeId="OsmiumOreToIngot" />
 
   </BlueprintClassEntries>
 </Definitions>

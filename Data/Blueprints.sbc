@@ -1,7 +1,22 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+    <!-- ORE TO INGOTS -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>OsmiumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>OsmiumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="OsmiumOre" />
+      </Prerequisites>
+      <Result Amount="0.005" TypeId="Ingot" SubtypeId="Osmium" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
 
+    <!-- INGOTS TO COMPONENTS -->
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -21,7 +36,6 @@
       <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -40,6 +54,22 @@
       
       <Result Amount="1" TypeId="Component" SubtypeId="MolecularMotor" />
       <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AdvancedPlate</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Osmium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="AdvancedPlate" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
