@@ -1242,7 +1242,7 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Large]
 
-        [ClearGridInventories:true]
+    [ClearGridInventories:false]
 
         [RandomizeWeapons:true]
 

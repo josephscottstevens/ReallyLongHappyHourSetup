@@ -36,7 +36,7 @@
 			</Items>
 		</ContainerType>
 
-		<ContainerType CountMin="2" CountMax="10">
+		<ContainerType CountMin="4" CountMax="10">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>Reaver-Loot-Large</SubtypeId>
@@ -52,7 +52,7 @@
 			</Items>
 		</ContainerType>
 
-		<ContainerType CountMin="2" CountMax="12">
+		<ContainerType CountMin="6" CountMax="12">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>Reaver-Loot-ExtraLarge</SubtypeId>
@@ -67,6 +67,6 @@
 				</Item>
 			</Items>
 		</ContainerType>
-		
+
 	</ContainerTypes>																									
 </Definitions>																										
