@@ -109,7 +109,7 @@
 			<Model>..\2483168442\Models\H2-Generator\GanymedeH2Generator.mwm</Model>
 			<Components>
 				<Component Count="680" Subtype="SteelPlate"/>
-				<Component Subtype="Nanotubes" Count="180"/>
+				<Component Subtype="Nanotubes" Count="40"/>
 				<Component Count="150" Subtype="Construction"/>
 				<Component Count="85" Subtype="BulletproofGlass"/>
 				<Component Count="36" Subtype="LargeTube"/>
@@ -201,7 +201,7 @@
 			<Model>..\2483168442\Models\Refinery\GanymedeRefinery.mwm</Model>
 			<Components>
 				<Component Count="2100" Subtype="SteelPlate"/>
-				<Component Subtype="Nanotubes" Count="600"/>
+				<Component Subtype="Nanotubes" Count="60"/>
 				<Component Count="200" Subtype="Construction"/>
 				<Component Count="82" Subtype="LargeTube"/>
 				<Component Count="90" Subtype="Motor"/>
@@ -357,7 +357,7 @@
 			<Model>..\2483168442\Models\Assembler\GanymedeAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="680"/>
-				<Component Subtype="Nanotubes" Count="80"/>
+				<Component Subtype="Nanotubes" Count="30"/>
 				<Component Subtype="Construction" Count="360"/>
 				<Component Subtype="Motor" Count="300"/>
 				<Component Subtype="Display" Count="80"/>
@@ -432,7 +432,7 @@
 			<Model>..\2483168442\Models\Assembler\GanymedeBasicAssembler.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100"/>
-				<Component Subtype="Nanotubes" Count="50"/>
+				<Component Subtype="Nanotubes" Count="15"/>
 				<Component Subtype="Construction" Count="50"/>
 				<Component Subtype="Motor" Count="15"/>
 				<Component Subtype="Display" Count="10"/>
@@ -660,7 +660,7 @@
 			<Model>..\2483168442\Models\Cargo\GanymedeLargeBlockSmallContainer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="265"/>
-				<Component Subtype="Nanotubes" Count="30"/>
+				<Component Subtype="Nanotubes" Count="10"/>
 				<Component Subtype="InteriorPlate" Count="230"/>
 				<Component Subtype="Construction" Count="285"/>
 				<Component Subtype="MetalGrid" Count="80"/>
@@ -714,7 +714,7 @@
 			<Model>..\2483168442\Models\Cargo\GanymedeLargeBlockLargeContainer.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="680"/>
-				<Component Subtype="Nanotubes" Count="120"/>
+				<Component Subtype="Nanotubes" Count="30"/>
 				<Component Subtype="InteriorPlate" Count="900"/>
 				<Component Subtype="Construction" Count="170"/>
 				<Component Subtype="MetalGrid" Count="90"/>

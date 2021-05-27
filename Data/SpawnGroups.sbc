@@ -114,9 +114,12 @@
         [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
         [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -193,8 +196,11 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -271,9 +277,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -350,9 +359,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -429,9 +441,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -502,9 +517,12 @@
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
         
-		[AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+		[AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
 		[SpawnRandomCargo:true]
-		[Territory:Reaver Boneyard]
+    [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -595,9 +613,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Large]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Large,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -674,9 +695,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Large]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Large,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -753,9 +777,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -825,9 +852,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Large]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Large,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -909,8 +939,11 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small,Uranium-Loot-Medium]
 		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -984,9 +1017,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [NpcAtmoThrustPowerMultiply:0.0001]
@@ -1061,8 +1097,11 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small,Uranium-Loot-Medium]
 		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1139,9 +1178,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Medium,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1209,9 +1251,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-ExtraLarge]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-ExtraLarge,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1296,9 +1341,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Large]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Large,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1375,8 +1423,11 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small,Uranium-Loot-Medium]
 		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1453,8 +1504,11 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small,Uranium-Loot-Medium]
 		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]
@@ -1531,9 +1585,12 @@
         [IgnoreGlobalBlockReplacer:true]
         [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
 
-    [AssignContainerTypesToAllCargo:Reaver-Loot-Large]
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Large,Uranium-Loot-Medium]
     [SpawnRandomCargo:true]
     [Territory:Reaver Boneyard]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]

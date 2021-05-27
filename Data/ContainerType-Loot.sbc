@@ -10,7 +10,7 @@
 				<SubtypeId>Reaver-Loot-Small</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="10" AmountMax="30">
+				<Item AmountMin="30" AmountMax="50">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
@@ -26,7 +26,7 @@
 				<SubtypeId>Reaver-Loot-Medium</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="30" AmountMax="60">
+				<Item AmountMin="50" AmountMax="80">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
@@ -42,7 +42,7 @@
 				<SubtypeId>Reaver-Loot-Large</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="60" AmountMax="180">
+				<Item AmountMin="110" AmountMax="180">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
@@ -58,13 +58,29 @@
 				<SubtypeId>Reaver-Loot-ExtraLarge</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="180" AmountMax="300">
+				<Item AmountMin="180" AmountMax="450">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="12" CountMax="16">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Uranium-Loot-Medium</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="2000" AmountMax="5000">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
