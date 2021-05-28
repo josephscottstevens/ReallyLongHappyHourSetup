@@ -49,7 +49,7 @@
         <SubtypeId>AdvancedPlate</SubtypeId>
       </Id>
       <DisplayName>Advanced Plate</DisplayName>
-      <Icon>Textures\molecular_motor.dds</Icon>
+      <Icon>Textures\advancedPlating.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
@@ -57,7 +57,7 @@
       </Size>
       <Mass>8</Mass>
       <Volume>2</Volume>
-      <Model>Models\molecular_motor.mwm</Model>
+      <Model>Models\advanced_plate.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.5</DropProbability>

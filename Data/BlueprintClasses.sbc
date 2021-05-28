@@ -12,5 +12,7 @@
 
       <Entry Class="Ingots" BlueprintSubtypeId="OsmiumOreToIngot" />
 
+      <Entry Class="Components" BlueprintSubtypeId="AdvancedPlate" />
+
   </BlueprintClassEntries>
 </Definitions>

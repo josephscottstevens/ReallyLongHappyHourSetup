@@ -62,7 +62,7 @@
         <SubtypeId>AdvancedPlate</SubtypeId>
       </Id>
       <DisplayName>Advanced Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Icon>Textures\advancedPlating.dds</Icon>
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="Osmium" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
