@@ -17,6 +17,13 @@
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
+				<Item AmountMin="600" AmountMax="1500">
+                    <Frequency>0.15</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -26,29 +33,43 @@
 				<SubtypeId>Reaver-Loot-Medium</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="50" AmountMax="80">
+				<Item AmountMin="40" AmountMax="60">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
+				<Item AmountMin="800" AmountMax="1500">
+                    <Frequency>0.20</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
-		<ContainerType CountMin="4" CountMax="10">
+		<ContainerType CountMin="4" CountMax="8">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>Reaver-Loot-Large</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="110" AmountMax="180">
+				<Item AmountMin="80" AmountMax="150">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
+				<Item AmountMin="1000" AmountMax="2500">
+                    <Frequency>0.25</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -65,17 +86,8 @@
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
-			</Items>
-		</ContainerType>
-
-		<ContainerType CountMin="12" CountMax="16">
-			<Id>
-				<TypeId>ContainerTypeDefinition</TypeId>
-				<SubtypeId>Uranium-Loot-Medium</SubtypeId>
-			</Id>
-			<Items>
 				<Item AmountMin="2000" AmountMax="5000">
-                    <Frequency>0.5</Frequency>
+                    <Frequency>0.3</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
