@@ -221,12 +221,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.16" File="..\2483168442\Models\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.24" File="..\2483168442\Models\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\RefineryConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="0.50" File="..\2483168442\Models\RefineryConstruction_3.mwm"/>
-				<Model BuildPercentUpperBound="0.83" File="..\2483168442\Models\RefineryConstruction_4.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\RefineryConstruction_5.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Refinery\GanymedeRefinery_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Refinery\GanymedeRefinery_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Refinery\GanymedeRefinery_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeRefinery</BlockPairName>
 			<EdgeType>Light</EdgeType>
@@ -347,7 +344,7 @@
 				<SubtypeId>GanymedeAssembler</SubtypeId>
 			</Id>
 			<DisplayName>Ganymede Assembler</DisplayName>
-			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeAssembler.dds</Icon>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeAssembler.png</Icon>
 			<Description>The Ganymede Assembler works 3x faster then a standard assembler.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
