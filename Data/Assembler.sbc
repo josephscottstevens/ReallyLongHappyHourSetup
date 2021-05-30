@@ -39,7 +39,7 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\H2-Generator\GanymedeH2GeneratorSG_BS3.mwm"/>
 			</BuildProgressModels>
 			<Center x="1" y="1" z="0"/>
-			<BuildTimeSeconds>600</BuildTimeSeconds>
+			<BuildTimeSeconds>450</BuildTimeSeconds>
 			<EdgeType>Light</EdgeType>
 			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -51,7 +51,7 @@
 				<Z>2</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.03</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.65</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.85</OperationalPowerConsumption>
 			<ProducedGases>
 				<GasInfo>
 					<Id>
@@ -136,7 +136,7 @@
 			</BuildProgressModels>
 			<BlockPairName>GanymedeElectrolyticDivider</BlockPairName>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<BuildTimeSeconds>650</BuildTimeSeconds>
 			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<IceConsumptionPerSecond>50</IceConsumptionPerSecond>
@@ -148,7 +148,7 @@
 				<Z>2</Z>
 			</InventorySize>
 			<StandbyPowerConsumption>0.08</StandbyPowerConsumption>
-			<OperationalPowerConsumption>0.95</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.85</OperationalPowerConsumption>
 			<ProducedGases>
 				<GasInfo>
 					<Id>
@@ -221,17 +221,17 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.16" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.24" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="0.50" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_3.mwm"/>
-				<Model BuildPercentUpperBound="0.83" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_4.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+				<Model BuildPercentUpperBound="0.16" File="..\2483168442\Models\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.24" File="..\2483168442\Models\RefineryConstruction_1.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\RefineryConstruction_2.mwm"/>
+				<Model BuildPercentUpperBound="0.50" File="..\2483168442\Models\RefineryConstruction_3.mwm"/>
+				<Model BuildPercentUpperBound="0.83" File="..\2483168442\Models\RefineryConstruction_4.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\RefineryConstruction_5.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>GanymedeRefinery</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<Description>The Ganymede Refinery breaks down Ore at the molecular level and reconstructs it into Ingots that is used by Assemblers. Using Ganymede Technology this refinery can reconstruct ingots at 3x faster</Description>
-			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<BuildTimeSeconds>480</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<InventoryMaxVolume>8.5</InventoryMaxVolume>
 			<InventorySize>
@@ -242,15 +242,15 @@
 			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
 			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
 			<DeformationRatio>0.05</DeformationRatio>
-			<StandbyPowerConsumption>0.03</StandbyPowerConsumption>
-			<OperationalPowerConsumption>1.9</OperationalPowerConsumption>
+			<StandbyPowerConsumption>0.003</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.9</OperationalPowerConsumption>
 			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
 			<BlueprintClasses>
 				<Class>Ingots</Class>
 				<Class>IngotsTitanium_LWTS</Class>
 				<Class>LWTSX_Rarium</Class>
 			</BlueprintClasses>
-			<RefineSpeed>3.0</RefineSpeed>
+			<RefineSpeed>3.9</RefineSpeed>
 			<MaterialEfficiency>1.16</MaterialEfficiency>
 			<OreAmountPerPullRequest>3750</OreAmountPerPullRequest>
 			<Center x="1" y="0" z="1"/>
@@ -309,7 +309,7 @@
 			</BuildProgressModels>
 			<BlockPairName>GanymedeBasicRefinery</BlockPairName>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>400</BuildTimeSeconds>
+			<BuildTimeSeconds>200</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<InventoryMaxVolume>4</InventoryMaxVolume>
 			<InventorySize>
@@ -382,7 +382,7 @@
 			<BlockPairName>GanymedeAssembler</BlockPairName>
 			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>1650</BuildTimeSeconds>
+			<BuildTimeSeconds>450</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<InventoryMaxVolume>4</InventoryMaxVolume>
 			<InventorySize>
@@ -393,7 +393,7 @@
 			<StandbyPowerConsumption>0.075</StandbyPowerConsumption>
 			<AssemblySpeed>3.0</AssemblySpeed>
 			<AssemblerPriority>5</AssemblerPriority>
-			<OperationalPowerConsumption>1.55</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.65</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>LargeBlocks</Class>
 				<Class>SmallBlocks</Class>
@@ -689,7 +689,7 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>800</BuildTimeSeconds>
+			<BuildTimeSeconds>200</BuildTimeSeconds>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -744,7 +744,7 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>1200</BuildTimeSeconds>
+			<BuildTimeSeconds>400</BuildTimeSeconds>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
 			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
