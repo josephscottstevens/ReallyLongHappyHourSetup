@@ -751,6 +751,74 @@
 			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PCU>10</PCU>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>GanymedeAdvancedAssembler</SubtypeId>
+			</Id>
+			<DisplayName>Ganymede Advanced Assembler</DisplayName>
+			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeBasicAssembler.png</Icon>
+			<Description>The Ganymede Advanced Assembler operaters at 2x the standard speed.</Description>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>..\2483168442\Models\Assembler\GanymedeBasicAssembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="Nanotubes" Count="50"/>
+				<Component Subtype="Construction" Count="50"/>
+				<Component Subtype="Motor" Count="15"/>
+				<Component Subtype="Display" Count="10"/>
+				<Component Subtype="Computer" Count="100"/>
+				<Component Subtype="SteelPlate" Count="40"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\2483168442\Models\Assembler\GanymedeBasicAssembler_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>GanymedeAdvancedAssembler</BlockPairName>
+			<EmissiveColorPreset>Ganymede_Default</EmissiveColorPreset>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>400</BuildTimeSeconds>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<InventoryMaxVolume>2</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.28</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>AdvancedMaterials</Class>
+			</BlueprintClasses>
+			<AssemblySpeed>1.4</AssemblySpeed>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<PrimarySound>BlockAssembler</PrimarySound>
+			<ActionSound>BlockAssemblerProcess</ActionSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<PCU>40</PCU>
+			<IsAirTight>true</IsAirTight>
+			<TieredUpdateTimes>
+				<unsignedInt>60</unsignedInt>
+				<unsignedInt>120</unsignedInt>
+				<unsignedInt>240</unsignedInt>
+			</TieredUpdateTimes>
+		</Definition>
 	</CubeBlocks>
 	<EntityComponents>
 		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
