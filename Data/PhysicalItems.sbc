@@ -68,7 +68,7 @@
             </Size>
             <Mass>1</Mass>
             <Volume>0.047</Volume>
-            <Model>Models\Ingots\silver_ingot.mwm</Model>
+            <Model>Models\OsmiumIngots.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>Os</IconSymbol>
             <MinimumOfferAmount>100</MinimumOfferAmount>
