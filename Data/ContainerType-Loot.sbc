@@ -11,7 +11,7 @@
 			</Id>
 			<Items>
 				<Item AmountMin="30" AmountMax="50">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.849</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
@@ -24,6 +24,13 @@
                         <SubtypeId>Uranium</SubtypeId>
                     </Id>
                 </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.001</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>NaniteCore</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -34,7 +41,7 @@
 			</Id>
 			<Items>
 				<Item AmountMin="40" AmountMax="60">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.799</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
@@ -47,6 +54,13 @@
                         <SubtypeId>Uranium</SubtypeId>
                     </Id>
                 </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.001</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>NaniteCore</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -57,7 +71,7 @@
 			</Id>
 			<Items>
 				<Item AmountMin="80" AmountMax="150">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.749</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
@@ -68,6 +82,13 @@
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.001</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>NaniteCore</SubtypeId>
                     </Id>
                 </Item>
 			</Items>

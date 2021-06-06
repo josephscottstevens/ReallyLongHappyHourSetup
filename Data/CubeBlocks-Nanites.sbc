@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+            <Id>
+                <TypeId>ShipWelder</TypeId>
+                <SubtypeId>LargeNaniteControlFacility</SubtypeId>
+            </Id>
+            <DisplayName>Nanite Control Facility</DisplayName>
+            <Icon>..\219757726\Textures\GUI\Icons\Cubes\NaniteFactory.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <Center x="1" y="0" z="1" />
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>..\219757726\Models\Cubes\large\NaniteControlFacility.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="8000"/>
+                <Component Subtype="Construction" Count="8000"/>
+                <Component Subtype="MetalGrid" Count="4500"/>
+                <Component Subtype="LargeTube" Count="3000"/>
+                <Component Subtype="GravityGenerator" Count="800"/>
+                <Component Subtype="Detector" Count="1250"/>
+                <Component Subtype="PowerCell" Count="4860"/>
+                <Component Subtype="Computer" Count="8200"/>
+                <Component Subtype="Motor" Count="1800"/>
+                <Component Subtype="Superconductor" Count="12000"/>
+				<Component Subtype="Nanotubes" Count="100"/>
+				<Component Subtype="MolecularMotor" Count="100"/>
+				<Component Subtype="NaniteCore" Count="1"/>
+                <Component Subtype="Display" Count="120"/>
+                <Component Subtype="SteelPlate" Count="9000"/>
+                <Component Subtype="InteriorPlate" Count="4000"/>
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="1"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="1"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="..\219757726\Models\Cubes\large\NaniteControlFacility_Constr1.mwm"/>
+                <Model BuildPercentUpperBound="0.75" File="..\219757726\Models\Cubes\large\NaniteControlFacility_Constr2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="..\219757726\Models\Cubes\large\NaniteControlFacility_Constr3.mwm"/>
+            </BuildProgressModels>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <BlockPairName>NaniteControlFacility</BlockPairName>
+            <Description>A facility that produces nanites that will mine, collect, weld, grind, and heal. It requires at least 1,000MW of power to operate. 
+            Beacons are required for the nanites to lock onto grids. Ore, ingots, and components are picked up by the cleanup nanites.</Description>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>675</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectId>212</DamageEffectId>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <Public>true</Public>
+            <PrimarySound>NaniteModule</PrimarySound>
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <SensorRadius>4</SensorRadius>
+            <SensorOffset>0</SensorOffset>
+            <PCU>7500</PCU>
+        </Definition>
+		<Definition xsi:type="MyObjectBuilder_ProjectorDefinition">
+			<Id>
+				<TypeId>Projector</TypeId>
+				<SubtypeId>LargeNaniteAreaBeacon</SubtypeId>
+			</Id>
+			<DisplayName>Nanite Area Beacon</DisplayName>
+			<Icon>..\219757726\Textures\GUI\Icons\Cubes\AreaBeacon.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>..\219757726\Models\Cubes\large\AreaBeacon.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2000"/>
+				<Component Subtype="SmallTube" Count="1000"/>
+				<Component Subtype="RadioCommunication" Count="200"/>
+				<Component Subtype="PowerCell" Count="100"/>
+				<Component Subtype="Construction" Count="1500"/>
+				<Component Subtype="Nanotubes" Count="10"/>
+				<Component Subtype="MolecularMotor" Count="10"/>
+				<Component Subtype="Computer" Count="3000"/>
+				<Component Subtype="SteelPlate" Count="1500"/>
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.66" File="..\219757726\Models\Cubes\large\AreaBeacon_Constr1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="..\219757726\Models\Cubes\large\AreaBeacon_Constr2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>NaniteAreaBeacon</BlockPairName>
+			<Description>Nanite Area Beacon allows nanites to operate in a controlled space for deconstruction, construction, and projections.</Description>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<DamageEffectId>214</DamageEffectId>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.0002</RequiredPowerInput>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<PCU>225</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

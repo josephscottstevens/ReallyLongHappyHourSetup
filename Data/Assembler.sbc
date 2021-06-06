@@ -50,7 +50,7 @@
 				<Y>2</Y>
 				<Z>2</Z>
 			</InventorySize>
-			<StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+			<StandbyPowerConsumption>0.003</StandbyPowerConsumption>
 			<OperationalPowerConsumption>0.85</OperationalPowerConsumption>
 			<ProducedGases>
 				<GasInfo>
@@ -147,8 +147,8 @@
 				<Y>2</Y>
 				<Z>2</Z>
 			</InventorySize>
-			<StandbyPowerConsumption>0.08</StandbyPowerConsumption>
-			<OperationalPowerConsumption>0.85</OperationalPowerConsumption>
+			<StandbyPowerConsumption>0.008</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.95</OperationalPowerConsumption>
 			<ProducedGases>
 				<GasInfo>
 					<Id>
@@ -239,8 +239,8 @@
 			<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
 			<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
 			<DeformationRatio>0.05</DeformationRatio>
-			<StandbyPowerConsumption>0.003</StandbyPowerConsumption>
-			<OperationalPowerConsumption>0.9</OperationalPowerConsumption>
+			<StandbyPowerConsumption>0.005</StandbyPowerConsumption>
+			<OperationalPowerConsumption>1.05</OperationalPowerConsumption>
 			<EmissiveColorPreset>Ganymede_Extended</EmissiveColorPreset>
 			<BlueprintClasses>
 				<Class>Ingots</Class>
@@ -345,7 +345,7 @@
 			</Id>
 			<DisplayName>Ganymede Assembler</DisplayName>
 			<Icon>..\2483168442\Textures\GUI\Icons\GanymedeAssembler.png</Icon>
-			<Description>The Ganymede Assembler works 3x faster then a standard assembler.</Description>
+			<Description>The Ganymede Assembler works 4x faster then a standard assembler.</Description>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -387,10 +387,10 @@
 				<Y>1</Y>
 				<Z>1</Z>
 			</InventorySize>
-			<StandbyPowerConsumption>0.075</StandbyPowerConsumption>
-			<AssemblySpeed>3.0</AssemblySpeed>
+			<StandbyPowerConsumption>0.0075</StandbyPowerConsumption>
+			<AssemblySpeed>4.0</AssemblySpeed>
 			<AssemblerPriority>5</AssemblerPriority>
-			<OperationalPowerConsumption>0.65</OperationalPowerConsumption>
+			<OperationalPowerConsumption>1.05</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>LargeBlocks</Class>
 				<Class>SmallBlocks</Class>
