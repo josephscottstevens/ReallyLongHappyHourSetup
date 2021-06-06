@@ -1,22 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
     <CubeBlocks>
-
-        <!-- Region -->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-            <Id>
-                <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockLargeFermiumGenerator</SubtypeId>
-            </Id>
-            <DisplayName>Large Fermium Reactor</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-            <Description>A large reactor that uses synthetic fuel to produce a more energetic reaction.</Description>
-            <CubeSize>Large</CubeSize>
-            <Size x="3" y="3" z="3"/>
-	    <ModelOffset x="0" y="0" z="0"/>
-	    <Model>Models\FermiumReactor_Large.mwm</Model>
-            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
+		<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+			<Id>
+				<TypeId>Reactor</TypeId>
+				<SubtypeId>LargeBlockLargeFermiumGenerator</SubtypeId>
+			</Id>
+			<DisplayName>Large Fermium Reactor</DisplayName>
+			<Description>A large reactor that uses synthetic fuel to produce a more energetic reaction.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\FermiumReactor_Large.mwm</Model>
+			<Components>
                 <Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="MetalGrid" Count="2" />
@@ -26,48 +25,31 @@
                 <Component Subtype="Computer" Count="10" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-            </MountPoints>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BlockPairName>FermiumReactor_Large</BlockPairName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactor</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
-
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>0.5</MaxPowerOutput>
+            <MaxPowerOutput>3000</MaxPowerOutput>
 
             <InventorySize>
                 <X>0.5</X>
                 <Y>0.5</Y>
                 <Z>0.5</Z>
             </InventorySize>
-            
-            
-            <!-- 
-                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
-                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
-                Warning: Changing these values will affect performance.
-            -->
             <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>
             <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>
 
-            <!-- 
-                This is how much of fuel is pulled from conveyor system in one tick.
-                It's in minutes, means that it will pull X minutes of fuel in one tick.
-                Warning: Changing this value will affect performance.
-            -->
             <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
                     
             <FuelInfos>
@@ -92,7 +74,6 @@
                 <unsignedInt>1800</unsignedInt>
                 <unsignedInt>3600</unsignedInt>
             </TieredUpdateTimes>
-        </Definition>
-        
-    </CubeBlocks>
+		</Definition>
+	</CubeBlocks>
 </Definitions>
