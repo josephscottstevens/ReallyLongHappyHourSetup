@@ -59,16 +59,16 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AdvancedPlate</SubtypeId>
+        <SubtypeId>OsmiumPlate</SubtypeId>
       </Id>
-      <DisplayName>Advanced Plate</DisplayName>
-      <Icon>Textures\advancedPlating.dds</Icon>
+      <DisplayName>Osmium Plate</DisplayName>
+      <Icon>Textures\osmiumPlating.dds</Icon>
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="Osmium" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="AdvancedPlate" />
+      <Result Amount="1" TypeId="Component" SubtypeId="OsmiumPlate" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>

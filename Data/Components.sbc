@@ -46,10 +46,10 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>AdvancedPlate</SubtypeId>
+        <SubtypeId>OsmiumPlate</SubtypeId>
       </Id>
-      <DisplayName>Advanced Plate</DisplayName>
-      <Icon>Textures\advancedPlating.dds</Icon>
+      <DisplayName>Osmium Plate</DisplayName>
+      <Icon>Textures\osmiumPlating.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
@@ -57,7 +57,7 @@
       </Size>
       <Mass>30</Mass>
       <Volume>2</Volume>
-      <Model>Models\advanced_plate.mwm</Model>
+      <Model>Models\osmium_plate.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>230</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
@@ -72,7 +72,7 @@
         <SubtypeId>NaniteController</SubtypeId>
       </Id>
       <DisplayName>Nanite Controller</DisplayName>
-      <Icon>Textures\advancedPlating.dds</Icon>
+      <Icon>Textures\osmiumPlating.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
