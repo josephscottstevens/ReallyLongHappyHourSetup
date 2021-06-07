@@ -15,22 +15,19 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>..\219757726\Models\Cubes\large\NaniteControlFacility.mwm</Model>
             <Components>
-                <Component Subtype="InteriorPlate" Count="8000"/>
+				<Component Subtype="OsmiumPlate" Count="6000"/>
                 <Component Subtype="Construction" Count="8000"/>
                 <Component Subtype="MetalGrid" Count="4500"/>
-                <Component Subtype="LargeTube" Count="3000"/>
                 <Component Subtype="GravityGenerator" Count="400"/>
                 <Component Subtype="Detector" Count="1250"/>
                 <Component Subtype="PowerCell" Count="3860"/>
                 <Component Subtype="Computer" Count="8200"/>
-                <Component Subtype="Motor" Count="1800"/>
                 <Component Subtype="Superconductor" Count="12000"/>
-				<Component Subtype="OsmiumPlate" Count="4000"/>
-				<Component Subtype="Nanotubes" Count="80"/>
-				<Component Subtype="MolecularMotor" Count="120"/>
+				<Component Subtype="Nanotubes" Count="110"/>
+				<Component Subtype="MolecularMotor" Count="140"/>
 				<Component Subtype="NaniteController" Count="1"/>
                 <Component Subtype="Display" Count="120"/>
-                <Component Subtype="InteriorPlate" Count="4000"/>
+				<Component Subtype="OsmiumPlate" Count="2000"/>
             </Components>
             <CriticalComponent Subtype="Display" Index="0"/>
             <MountPoints>
