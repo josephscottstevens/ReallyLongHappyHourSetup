@@ -28,7 +28,7 @@
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
       <DisplayName>Molecular Motor</DisplayName>
-      <Icon>Textures\molecular_motor.dds</Icon>
+      <Icon>Textures\MolecularMotor.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
@@ -72,7 +72,7 @@
         <SubtypeId>NaniteController</SubtypeId>
       </Id>
       <DisplayName>Nanite Controller</DisplayName>
-      <Icon>Textures\osmiumPlating.dds</Icon>
+      <Icon>Textures\NaniteController.dds</Icon>
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>

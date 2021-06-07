@@ -42,7 +42,7 @@
         <SubtypeId>MolecularMotor</SubtypeId>
       </Id>
       <DisplayName>Molecular Motor</DisplayName>
-      <Icon>Textures\molecular_motor.dds</Icon>
+      <Icon>Textures\MolecularMotor.dds</Icon>
 
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
