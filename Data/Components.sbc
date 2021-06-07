@@ -8,7 +8,6 @@
       </Id>
       <DisplayName>Nanotubes</DisplayName>
       <Icon>Textures\nanotubes.dds</Icon>
-
       <Size>
         <X>1.2</X>
         <Y>1.1</Y>
@@ -30,7 +29,6 @@
       </Id>
       <DisplayName>Molecular Motor</DisplayName>
       <Icon>Textures\molecular_motor.dds</Icon>
-
       <Size>
         <X>0.2</X>
         <Y>0.1</Y>
@@ -39,6 +37,50 @@
       <Mass>8</Mass>
       <Volume>2</Volume>
       <Model>Models\molecular_motor.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>18</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>OsmiumPlate</SubtypeId>
+      </Id>
+      <DisplayName>Osmium Plate</DisplayName>
+      <Icon>Textures\osmiumPlating.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>30</Mass>
+      <Volume>2</Volume>
+      <Model>Models\osmium_plate.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>230</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+      <Health>130</Health>
+    </Component>
+
+
+    <!-- Legendary Loot -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>NaniteController</SubtypeId>
+      </Id>
+      <DisplayName>Nanite Controller</DisplayName>
+      <Icon>Textures\osmiumPlating.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>2</Volume>
+      <Model>Models\NaniteController.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.5</DropProbability>

@@ -7,7 +7,16 @@
 
       <Entry Class="Components" BlueprintSubtypeId="Nanotubes" />
       <Entry Class="Components" BlueprintSubtypeId="MolecularMotor" />
+
+      
+
+      <Entry Class="Ingots" BlueprintSubtypeId="OsmiumOreToIngot" />
+
+      <Entry Class="Components" BlueprintSubtypeId="AdvancedPlate" />
+
+      <!-- Legendary Loot -->
       <Entry Class="CommonMetals" BlueprintSubtypeId="StrangeMatterCanister" />
+      <Entry Class="Component" BlueprintSubtypeId="NaniteController" />
 
   </BlueprintClassEntries>
 </Definitions>
