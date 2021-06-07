@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     
     <CubeBlocks>
-		<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+		<!-- <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
 			<Id>
 				<TypeId>Reactor</TypeId>
 				<SubtypeId>LargeBlockLargeFermiumGenerator</SubtypeId>
@@ -74,6 +74,6 @@
                 <unsignedInt>1800</unsignedInt>
                 <unsignedInt>3600</unsignedInt>
             </TieredUpdateTimes>
-		</Definition>
+		</Definition> -->
 	</CubeBlocks>
 </Definitions>

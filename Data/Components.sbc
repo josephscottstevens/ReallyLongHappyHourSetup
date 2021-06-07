@@ -17,7 +17,7 @@
       <Volume>2</Volume>
       <Model>Models\Nanotubes.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>30</MaxIntegrity>
+      <MaxIntegrity>80</MaxIntegrity>
       <DropProbability>0.5</DropProbability>
       <Health>18</Health>
     </Component>
@@ -83,7 +83,7 @@
       <Model>Models\NaniteController.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>30</MaxIntegrity>
-      <DropProbability>0.5</DropProbability>
+      <DropProbability>1.0</DropProbability>
       <Health>18</Health>
     </Component>
     

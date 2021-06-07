@@ -19,18 +19,17 @@
                 <Component Subtype="Construction" Count="8000"/>
                 <Component Subtype="MetalGrid" Count="4500"/>
                 <Component Subtype="LargeTube" Count="3000"/>
-                <Component Subtype="GravityGenerator" Count="800"/>
+                <Component Subtype="GravityGenerator" Count="400"/>
                 <Component Subtype="Detector" Count="1250"/>
-                <Component Subtype="PowerCell" Count="4860"/>
+                <Component Subtype="PowerCell" Count="3860"/>
                 <Component Subtype="Computer" Count="8200"/>
                 <Component Subtype="Motor" Count="1800"/>
                 <Component Subtype="Superconductor" Count="12000"/>
-				<Component Subtype="OsmiumPlate" Count="1000"/>
-				<Component Subtype="Nanotubes" Count="100"/>
-				<Component Subtype="MolecularMotor" Count="100"/>
+				<Component Subtype="OsmiumPlate" Count="4000"/>
+				<Component Subtype="Nanotubes" Count="80"/>
+				<Component Subtype="MolecularMotor" Count="120"/>
 				<Component Subtype="NaniteController" Count="1"/>
                 <Component Subtype="Display" Count="120"/>
-                <Component Subtype="SteelPlate" Count="9000"/>
                 <Component Subtype="InteriorPlate" Count="4000"/>
             </Components>
             <CriticalComponent Subtype="Display" Index="0"/>
