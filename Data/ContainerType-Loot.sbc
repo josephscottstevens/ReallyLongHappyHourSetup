@@ -18,7 +18,7 @@
 					</Id>
 				</Item>
 				<Item AmountMin="600" AmountMax="1500">
-                    <Frequency>0.15</Frequency>
+                    <Frequency>0.150</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
@@ -28,7 +28,7 @@
                     <Frequency>0.001</Frequency>
                     <Id>
                         <TypeId>Ingot</TypeId>
-                        <SubtypeId>NaniteCore</SubtypeId>
+                        <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
@@ -48,7 +48,7 @@
 					</Id>
 				</Item>
 				<Item AmountMin="800" AmountMax="1500">
-                    <Frequency>0.20</Frequency>
+                    <Frequency>0.200</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
@@ -58,7 +58,7 @@
                     <Frequency>0.001</Frequency>
                     <Id>
                         <TypeId>Ingot</TypeId>
-                        <SubtypeId>NaniteCore</SubtypeId>
+                        <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
@@ -78,7 +78,7 @@
 					</Id>
 				</Item>
 				<Item AmountMin="1000" AmountMax="2500">
-                    <Frequency>0.25</Frequency>
+                    <Frequency>0.250</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
@@ -88,7 +88,7 @@
                     <Frequency>0.001</Frequency>
                     <Id>
                         <TypeId>Ingot</TypeId>
-                        <SubtypeId>NaniteCore</SubtypeId>
+                        <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
@@ -101,17 +101,24 @@
 			</Id>
 			<Items>
 				<Item AmountMin="180" AmountMax="450">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.699</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
 				<Item AmountMin="2000" AmountMax="5000">
-                    <Frequency>0.3</Frequency>
+                    <Frequency>0.300</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.001</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
