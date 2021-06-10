@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>OsmiumArmorBlock</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorCornerInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorCornerSquare" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorCornerSquareInverted" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorCornerInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorCornerSquare" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumRampGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <DisplayName>OsmiumRampGroup</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorSlope2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorSlope2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumHalfArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumHalfSlopeArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfSlopeCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfSlopedCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorSlope2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorSlope2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="OsmiumHalfArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="OsmiumHalfSlopeArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfSlopeCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfSlopedCorner" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumRampCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <DisplayName>OsmiumRampCornerGroup</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorCorner2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorCorner2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorInvCorner2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorInvCorner2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfSlopeCornerInverted" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfSlopeInverted" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorCorner2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorCorner2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorInvCorner2Base" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorInvCorner2Tip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfSlopeCornerInverted" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfSlopeInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumRoundGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <DisplayName>OsmiumRoundArmorSlope</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorRoundSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorRoundCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeOsmiumBlockArmorRoundCornerInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorRoundSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorRoundCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>
