@@ -27,7 +27,7 @@
 				<Item AmountMin="1" AmountMax="1">
                     <Frequency>0.001</Frequency>
                     <Id>
-                        <TypeId>Ingot</TypeId>
+                        <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
@@ -57,7 +57,7 @@
 				<Item AmountMin="1" AmountMax="1">
                     <Frequency>0.002</Frequency>
                     <Id>
-                        <TypeId>Ingot</TypeId>
+                        <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
@@ -87,7 +87,7 @@
 				<Item AmountMin="1" AmountMax="1">
                     <Frequency>0.005</Frequency>
                     <Id>
-                        <TypeId>Ingot</TypeId>
+                        <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
@@ -117,7 +117,7 @@
 				<Item AmountMin="1" AmountMax="1">
                     <Frequency>0.008</Frequency>
                     <Id>
-                        <TypeId>Ingot</TypeId>
+                        <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
