@@ -31,6 +31,20 @@
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.01</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="10" AmountMax="40">
+                    <Frequency>0.01</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -59,6 +73,20 @@
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="15" AmountMax="50">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
@@ -91,6 +119,20 @@
                         <SubtypeId>NaniteController</SubtypeId>
                     </Id>
                 </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.05</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="20" AmountMax="60">
+                    <Frequency>0.05</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
 			</Items>
 		</ContainerType>
 
@@ -119,6 +161,20 @@
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>NaniteController</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.08</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="30" AmountMax="90">
+                    <Frequency>0.08</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
                     </Id>
                 </Item>
 			</Items>
