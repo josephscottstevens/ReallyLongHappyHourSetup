@@ -86,6 +86,48 @@
       <DropProbability>1.0</DropProbability>
       <Health>18</Health>
     </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+      </Id>
+      <DisplayName>Shield Controller Mainframe</DisplayName>
+      <Icon>Textures\shieldControllerMainframe.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>30</Mass>
+      <Volume>2</Volume>
+      <Model>Models\shieldControllerMainframe.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>1.0</DropProbability>
+      <Health>18</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+      </Id>
+      <DisplayName>Shield Emitter Diode</DisplayName>
+      <Icon>Textures\shieldEmitterDiode.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>2</Volume>
+      <Model>Models\shieldEmitterDiode.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>1.0</DropProbability>
+      <Health>4</Health>
+    </Component>
     
   </Components>
 </Definitions>

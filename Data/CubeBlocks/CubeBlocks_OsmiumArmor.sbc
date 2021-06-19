@@ -282,7 +282,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>OsmiumArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.1</DeformationRatio>
@@ -377,7 +377,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -532,7 +532,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorInvCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -695,7 +695,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <BlockPairName>OsmiumArmorBlock</BlockPairName>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -821,7 +821,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>OsmiumArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.05</DeformationRatio>
@@ -915,7 +915,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1069,7 +1069,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorInvCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1238,7 +1238,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HalfOsmiumArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
@@ -1396,7 +1396,7 @@
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
         <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
       </MountPoints>
-      <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HalfSlopeOsmiumArmorBlock</BlockPairName>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -1561,7 +1561,7 @@
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
       </MountPoints>
-      <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HalfOsmiumArmorBlock</BlockPairName>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -1727,7 +1727,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HalfSlopeOsmiumArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
@@ -1851,7 +1851,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.1</DeformationRatio>
@@ -1946,7 +1946,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2099,7 +2099,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -2226,7 +2226,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -2320,7 +2320,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2473,7 +2473,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>OsmiumArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -2639,7 +2639,7 @@
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorSlope2Base</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -2768,7 +2768,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorSlope2Tip</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -2895,7 +2895,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorCorner2Base</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>MinusHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -2992,7 +2992,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3146,7 +3146,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorInvCorner2Base</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3303,7 +3303,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3468,7 +3468,7 @@
         </BoneInfo>
       </Skeleton>
       <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorSlope2Base</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -3597,7 +3597,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorSlope2Tip</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -3724,7 +3724,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorCorner2Base</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>MinusHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -3821,7 +3821,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3975,7 +3975,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Base</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorInvCorner2Base</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -4132,7 +4132,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
+      <BlockPairName>LargeOsmiumBlockArmorInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -4242,7 +4242,7 @@
     <BoneOffset x="127" y="127" z="127" />
   </BoneInfo>
   </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+      <BlockPairName>OsmiumArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -4366,7 +4366,7 @@
     <BoneOffset x="127" y="127" z="127" />
   </BoneInfo>
   </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+      <BlockPairName>OsmiumArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -4496,7 +4496,7 @@
   <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-    <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+    <BlockPairName>OsmiumArmorCornerSquareInverted</BlockPairName>
     <PhysicsOption>Convex</PhysicsOption>
     <EdgeType>Heavy</EdgeType>
     <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -4626,7 +4626,7 @@
   <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-    <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+    <BlockPairName>OsmiumArmorCornerSquareInverted</BlockPairName>
     <PhysicsOption>Convex</PhysicsOption>
     <EdgeType>Heavy</EdgeType>
     <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -4741,7 +4741,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -4857,7 +4857,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -4950,7 +4950,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -5042,7 +5042,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -5225,7 +5225,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeCornerInverted</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -5408,7 +5408,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeCornerInverted</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>6.0</BuildTimeSeconds>
@@ -5529,7 +5529,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopedCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -5650,7 +5650,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopedCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -5794,7 +5794,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopedCornerBase</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -5938,7 +5938,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopedCornerBase</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -6107,7 +6107,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeInverted</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -6276,7 +6276,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+  <BlockPairName>OsmiumArmorHalfSlopeInverted</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>6.0</BuildTimeSeconds>
@@ -6416,7 +6416,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -6556,7 +6556,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCorner</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>4.0</BuildTimeSeconds>
@@ -6724,7 +6724,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCornerBase</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -6892,7 +6892,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCornerBase</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -6997,7 +6997,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCornerTip</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -7102,7 +7102,7 @@
 <BoneOffset x="127" y="127" z="127" />
 </BoneInfo>
 </Skeleton>
-  <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+  <BlockPairName>OsmiumArmorSlopedCornerTip</BlockPairName>
   <PhysicsOption>Convex</PhysicsOption>
   <EdgeType>Heavy</EdgeType>
   <BuildTimeSeconds>2.0</BuildTimeSeconds>

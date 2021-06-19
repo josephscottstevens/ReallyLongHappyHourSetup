@@ -17,6 +17,8 @@
       <!-- Legendary Loot -->
       <Entry Class="CommonMetals" BlueprintSubtypeId="StrangeMatterCanister" />
       <Entry Class="Component" BlueprintSubtypeId="NaniteController" />
+      <Entry Class="Component" BlueprintSubtypeId="ShieldControllerMainframe" />
+      <Entry Class="Component" BlueprintSubtypeId="ShieldEmitterDiode" />
 
   </BlueprintClassEntries>
 </Definitions>
