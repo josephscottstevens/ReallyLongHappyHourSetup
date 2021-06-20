@@ -127,7 +127,7 @@
                     </Id>
                 </Item>
 				<Item AmountMin="20" AmountMax="60">
-                    <Frequency>0.05</Frequency>
+                    <Frequency>0.08</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>ShieldEmitterDiode</SubtypeId>

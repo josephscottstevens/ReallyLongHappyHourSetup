@@ -132,7 +132,7 @@
 			<Components>
 				<Component Subtype="InteriorPlate" Count="100" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="ShieldEmitterDiode" Count="100" />
+				<Component Subtype="ShieldEmitterDiode" Count="10" />
 				<Component Subtype="Computer" Count="200" />
 				<Component Subtype="Display" Count="100" />
 			</Components>
@@ -192,7 +192,7 @@
 				<Component Subtype="SmallTube" Count="310" />
 				<Component Subtype="MetalGrid" Count="200" />
 				<Component Subtype="Construction" Count="120" />
-				<Component Subtype="ShieldEmitterDiode" Count="900" />
+				<Component Subtype="ShieldEmitterDiode" Count="90" />
 				<Component Subtype="Motor" Count="48" />
 				<Component Subtype="Computer" Count="60" />
 				<Component Subtype="Construction" Count="120" />
@@ -274,7 +274,7 @@
 				<Component Subtype="SteelPlate" Count="500" />
 				<Component Subtype="SmallTube" Count="120" />
 				<Component Subtype="Construction" Count="80" />
-				<Component Subtype="ShieldEmitterDiode" Count="400" />
+				<Component Subtype="ShieldEmitterDiode" Count="40" />
 				<Component Subtype="Construction" Count="180" />
 				<Component Subtype="MetalGrid" Count="160" />
 				<Component Subtype="Superconductor" Count="200" />
@@ -324,7 +324,7 @@
 				<Component Subtype="SteelPlate" Count="2" />
 				<Component Subtype="SmallTube" Count="2" />
 				<Component Subtype="Construction" Count="2" />
-				<Component Subtype="ShieldEmitterDiode" Count="50" />
+				<Component Subtype="ShieldEmitterDiode" Count="5" />
 				<Component Subtype="Construction" Count="2" />
 				<Component Subtype="MetalGrid" Count="2" />
 				<Component Subtype="Superconductor" Count="2" />
@@ -372,7 +372,7 @@
 				<Component Subtype="SteelPlate" Count="6000" />
 				<Component Subtype="SmallTube" Count="1400" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="ShieldEmitterDiode" Count="1850" />
+				<Component Subtype="ShieldEmitterDiode" Count="185" />
 				<Component Subtype="Construction" Count="200" />
 				<Component Subtype="MetalGrid" Count="600" />
 				<Component Subtype="Superconductor" Count="3980" />
@@ -422,7 +422,7 @@
 				<Component Subtype="BulletproofGlass" Count="150" />
 				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="Construction" Count="160" />
-				<Component Subtype="ShieldEmitterDiode" Count="240" />
+				<Component Subtype="ShieldEmitterDiode" Count="24" />
 				<Component Subtype="SteelPlate" Count="160" />
 				<Component Subtype="Superconductor" Count="60" />
 				<Component Subtype="Detector" Count="40" />
@@ -515,7 +515,7 @@
 				<Component Subtype="Girder" Count="320" />
 				<Component Subtype="MetalGrid" Count="80" />
 				<Component Subtype="Construction" Count="320" />
-				<Component Subtype="ShieldEmitterDiode" Count="480" />
+				<Component Subtype="ShieldEmitterDiode" Count="48" />
 				<Component Subtype="Motor" Count="40" />
 				<Component Subtype="InteriorPlate" Count="320" />
 				<Component Subtype="Superconductor" Count="180" />
@@ -602,7 +602,7 @@
 				<Component Subtype="SteelPlate" Count="1200" />
 				<Component Subtype="SmallTube" Count="800" />
 				<Component Subtype="Construction" Count="800" />
-				<Component Subtype="ShieldEmitterDiode" Count="400" />
+				<Component Subtype="ShieldEmitterDiode" Count="40" />
 				<Component Subtype="Construction" Count="600" />
 				<Component Subtype="MetalGrid" Count="400" />
 				<Component Subtype="Superconductor" Count="1200" />
@@ -653,7 +653,7 @@
 				<Component Subtype="SteelPlate" Count="2" />
 				<Component Subtype="SmallTube" Count="2" />
 				<Component Subtype="Construction" Count="2" />
-				<Component Subtype="ShieldEmitterDiode" Count="50" />
+				<Component Subtype="ShieldEmitterDiode" Count="5" />
 				<Component Subtype="Construction" Count="2" />
 				<Component Subtype="MetalGrid" Count="2" />
 				<Component Subtype="Superconductor" Count="2" />
