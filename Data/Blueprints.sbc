@@ -12,7 +12,7 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="OsmiumOre" />
       </Prerequisites>
-      <Result Amount="0.005" TypeId="Ingot" SubtypeId="Osmium" />
+      <Result Amount="0.05" TypeId="Ingot" SubtypeId="Osmium" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
 
