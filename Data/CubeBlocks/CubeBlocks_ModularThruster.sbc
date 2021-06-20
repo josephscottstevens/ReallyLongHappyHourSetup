@@ -1,0 +1,3918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<!-- Left Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_face_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left Face No Sides Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_face_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_face_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_face</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_face_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_1finbottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left 1 Fin Bottom</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_1finbottom_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_1finbottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_1finbottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_1finbottom_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_1finleft_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Fin Left</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_1finleft_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_1finleft_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_1finleft</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_1finright_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_1finright_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left 1 Fin Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_1finright_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_1finright_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_1finright</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_1finleft_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_3sides_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left 3 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_3sides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_3sides_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_3sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_3sides_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_leftcorner_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_leftcorner_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_leftcorner_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_leftcorner</BlockPairName>
+			<MirroringBlock>modular_45_right_rightcorner_L</MirroringBlock>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_left_rightcorner_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Left Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_left_rightcorner_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_left_rightcorner_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_left_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_left_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_left_rightcorner</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_right_leftcorner_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Left Thrusters End -->
+		<!-- Right Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_face_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right Face No Sides Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_face_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_face_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_face</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_face_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_1finbottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right 1 Fin Bottom</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_1finbottom_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_1finbottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_1finbottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_1finbottom_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_1finleft_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right 1 Fin Left</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_1finleft_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_1finleft_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_1finleft</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_1finleft_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_1finright_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right 1 Fin Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_1finright_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_1finright_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_1finright</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_1finright_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_3sides_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right 3 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_3sides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_3sides_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_3sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_3sides_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_leftcorner_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_leftcorner_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_leftcorner_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_leftcorner_L</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_leftcorner_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_45_right_rightcorner_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster 45 Right Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_45_right_rightcorner_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_45_right_rightcorner_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_45_right_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_45_right_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_45_right_rightcorner</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_45_left_rightcorner_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Right Thrusters End -->
+		<!-- Face Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_nosides_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face No Sides Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_nosides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_nosides_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_nosides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_w_2sidesL</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face 2 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_w_2sides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_w_2sidesL.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_w_2sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_w_1sideL</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face 1 Side</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_w_1side_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_w_1sideL.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_w_1side</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringX>Z</MirroringX>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_w_4sidesL</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face 4 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_w_4sides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_w_4sidesL.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_w_4sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_w_cornerL</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_w_cornerL.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_w_cornerL.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_w_corner</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringX>HalfZ</MirroringX>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_face_w_3sides_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Face W 3 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_face_w_3sides.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_face_w_3sides_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_face_nosides_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_face_nosides_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_face_w_3sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<MirroringX>Z</MirroringX>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Face Thrusters End -->
+		<!-- Misc Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframp_front_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Thruster Half Ramp Front Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframp_front_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframp_front_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframp_front_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframp_front_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframp_front</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframpback_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Ramp Back</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframpback_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframpback_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframpback_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframpback_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframpback</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframpfront_left_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Ramp Front Left Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframpfront_left_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframpfront_left_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframp_front_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframp_front_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframpfront_left</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_halframpfront_right_L</MirroringBlock>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframpfront_right_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Ramp Front Right Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframpfront_right_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframpfront_right_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframp_front_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframp_front_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframpfront_right</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_halframpfront_left_L</MirroringBlock>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframprear_leftside_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Ramp Back Left Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframprear_leftside_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframprear_leftside_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframpback_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframpback_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframprear_leftside</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_halframprear_rightside_L</MirroringBlock>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halframprear_rightside_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Ramp Back Right Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halframprear_rightside_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halframprear_rightside_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halframpback_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halframpback_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halframprear_rightside</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_halframprear_leftside_L</MirroringBlock>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>4.5</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halfslab_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Slab Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halfslab_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halfslab_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halfslab_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halfslab_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halfslab_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halfslab</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_halfslope_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Half Slope Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_halfslope_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_halfslope_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_halfslope_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_halfslope_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halfslope_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="Thrust" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="10" />
+				<Component Subtype="MolecularMotor" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_halfslope</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="0" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>3</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Misc Thrusters End -->
+		<!-- Ramp Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_face_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Face No Sides Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_face_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_face_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_face</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_2sides_LR_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp 2 Sides Left/Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_2sides_LR_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_2sides_LR_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_2sides_LR</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_1side_Right_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp 1 Side Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_1side_Right_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_1side_Right_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_1side_Right_L</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramp_1side_Left_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_1side_Left_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp 1 Side Left</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_1side_Left_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_1side_Left_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_1side_Left</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramp_1side_Right_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_leftcorner_bottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Bottom Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_leftcorner_bottom_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_leftcorner_bottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_leftcorner_bottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramp_rightcorner_bottom_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_leftcorner_top_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Top Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_leftcorner_top_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_leftcorner_top_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_leftcorner_top</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramprightcorner_top_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_rightcorner_bottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Bottom Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_rightcorner_bottom_l.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_rightcorner_bottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_rightcorner_bottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramp_leftcorner_bottom_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramprightcorner_top_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Top Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramprightcorner_top_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramprightcorner_top_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramprightcorner_top</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringBlock>modular_ramp_leftcorner_top_L</MirroringBlock>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_top_fin_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Top Fin</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_top_fin_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_top_fin_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_top_fin</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_top_bottomfins_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Top And Bottom Fins</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_top_bottomfins_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_top_bottomfins_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_top_bottomfins_L</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_bottom_fin_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp Bottom Fin</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_bottom_fin_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_bottom_fin_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_bottom_fin</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_ramp_4sides_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Ramp 4 Sides</DisplayName>
+			<Icon>..\2161243333\Textures\modular_ramp_4sides_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_ramp_4sides_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_ramp_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_ramp_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_ramp_4sides</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Ramp Thrusters End -->
+		<!-- Sloped Thrusters Start -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_face_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Face No Sides Large</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_face_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_face_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_face</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_2sides_LR_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 2 Sides Left/Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_2sides_LR_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_2sides_LR_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_2sides_LR</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_1side_Right_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 1 Side Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_1side_Right_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_1side_Right_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_1side_Right</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_1side_Left_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_1side_Left_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 1 Side Left</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_1side_Left.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_1side_Left_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_1side_Left</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_1side_Right_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_leftcorner_bottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Bottom Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_leftcorner_bottom_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_leftcorner_bottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_leftcorner_bottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_rightcorner_bottom_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_leftcorner_top_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Top Left Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_leftcorner_top_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_leftcorner_top_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_leftcorner_top</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_sloperightcorner_top_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_rightcorner_bottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Bottom Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_rightcorner_bottom_l.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_rightcorner_bottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_rightcorner_bottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_leftcorner_bottom_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_sloperightcorner_top_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Top Right Corner</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_rightcorner_top_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_sloperightcorner_top_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_sloperightcorner_top</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_leftcorner_top_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_top_fin_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Top Fin</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_top_fin_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_top_fin_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_top_fin</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_top_bottomfins_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Top And Bottom Fins</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_top_bottomfins_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_top_bottomfins_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_top_bottomfins_L</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_bottom_fin_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope Bottom Fin</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_bottom_fin_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_bottom_fin_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_bottom_fin</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_3sidesbottom_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 3 Sides Bottom</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_3sidesbottom_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_3sidesbottom_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_3sidesbottom</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_3sidestop_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 3 Sides Top</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_3sidestop_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_3sidestop_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_3sidestop</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_3sidesLeft_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 3 Sides Left</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_3sidesLeft_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_3sidesLeft_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_3sidesLeft</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_3sidesright_L</MirroringBlock>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>modular_slope_3sidesright_L</SubtypeId>
+			</Id>
+			<DisplayName>Modular Thruster Slope 3 Sides Right</DisplayName>
+			<Icon>..\2161243333\Textures\modular_slope_3sidesright_L.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>..\2161243333\Models\modular_slope_3sidesright_L.mwm</Model>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="-0.01" StartY="0.00" EndX="4.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+				<MountPoint Side="Top" StartX="-0.01" StartY="-0.01" EndX="1.00" EndY="4.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2161243333\Models\modular_slope_face_L_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="..\2161243333\Models\modular_slope_face_L_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Thrust" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="20" />
+				<Component Subtype="MolecularMotor" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<BlockPairName>modular_slope_3sidesright</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<DisassembleRatio>1</DisassembleRatio>
+			<MirroringBlock>modular_slope_3sidesLeft_L</MirroringBlock>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<Center x="0" y="0" z="1" />
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<MaxPowerConsumption>9</MaxPowerConsumption>
+			<MinPowerConsumption>0.0001</MinPowerConsumption>
+			<SlowdownFactor>2</SlowdownFactor>
+			<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+			<FlameDamage>0.1</FlameDamage>
+			<FlameLengthScale>4</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.2745098</X>
+				<Y>0.4090196</Y>
+				<Z>0.6505882</Z>
+				<W>0.75</W>
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameVisibilityDistance>1000</FlameVisibilityDistance>
+			<FlameGlareSize>0.1</FlameGlareSize>
+			<FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+			<PrimarySound>..\2161243333\modular_audio</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<PCU>15</PCU>
+		</Definition>
+		<!-- Sloped Thrusters End -->
+	</CubeBlocks>
+</Definitions>
