@@ -21,7 +21,6 @@
       [CustomDepartMessage: Leaving Boneyard. Lucky you and hopefully you didnt leave empty handed.]
       [Active:Active]
       [SpaceCargoShip:true]
-      [SpaceCargoShipChance:250]
 
       [GravityCargoShip:true]
       [GravityCargoShipChance:10]
@@ -88,12 +87,9 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
-        
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -148,7 +144,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Aggressor">
           <Position>
@@ -172,12 +168,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -229,7 +223,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>9</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Berserker">
           <Position>
@@ -253,12 +247,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -311,7 +303,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Butcher">
           <Position>
@@ -335,12 +327,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -393,7 +383,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Carver">
           <Position>
@@ -417,12 +407,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -475,7 +463,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Charger">
           <Position>
@@ -498,12 +486,10 @@
       <Description>
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
 
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:75]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -565,7 +551,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Cockroach">
           <Position>
@@ -589,12 +575,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -647,7 +631,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>2</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Crimson Tormentor">
           <Position>
@@ -671,12 +655,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -729,7 +711,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>2</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Crimson">
           <Position>
@@ -753,12 +735,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -811,7 +791,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Devourer">
           <Position>
@@ -891,7 +871,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>2</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Havelock">
           <Position>
@@ -915,12 +895,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -972,7 +950,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>9</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Impaler">
           <Position>
@@ -996,7 +974,6 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
 
         [DisableDampeners:false]
 
@@ -1049,7 +1026,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Interloper">
           <Position>
@@ -1073,12 +1050,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1130,7 +1105,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>9</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Invader (Space)">
           <Position>
@@ -1154,12 +1129,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1212,7 +1185,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Mutilator">
           <Position>
@@ -1293,7 +1266,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>10</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Nikkadudu">
           <Position>
@@ -1317,12 +1290,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1375,7 +1346,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>2</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Scourge">
           <Position>
@@ -1399,12 +1370,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
         
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1456,7 +1425,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>9</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Slayer">
           <Position>
@@ -1480,12 +1449,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
 
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1537,7 +1504,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>9</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Thrasher">
           <Position>
@@ -1561,12 +1528,10 @@
 
         [Modular Encounters SpawnGroup]
 
-        [ChanceCeiling:250]
 
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
-        [SpaceCargoShipChance:250]
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
@@ -1617,7 +1582,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>2</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Tormentor">
           <Position>
@@ -1625,8 +1590,410 @@
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
-          <Speed>25</Speed>
+          <Speed>1</Speed>
           <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+
+    <!--Boneyard Impaler-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Impaler</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+    [Territory:Reaver Boneyard]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.4]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:15]
+        [MaxPercentageSkinRandomBlocks:40]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Impaler">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Impaler</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Boneyard Berserker-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Berserker</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+    [SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+    [Territory:Reaver Boneyard]
+
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:15]
+        [MaxPercentageSkinRandomBlocks:40]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Berserker">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Boneyard Impaler-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Impaler</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+    [Territory:Reaver Boneyard]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.4]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:15]
+        [MaxPercentageSkinRandomBlocks:40]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Impaler">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Impaler</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Boneyard Invader (Space)-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Invader-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+    [Territory:Reaver Boneyard]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:15]
+        [MaxPercentageSkinRandomBlocks:40]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Invader (Space)">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Slayer-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Slayer</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+    [AssignContainerTypesToAllCargo:Reaver-Loot-Small]
+		[SpawnRandomCargo:true]
+    [UseBlockReplacer:true]
+    [ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+    [ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+    [Territory:Reaver Boneyard]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.5]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:15]
+        [MaxPercentageSkinRandomBlocks:40]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Slayer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
         </Prefab>
       </Prefabs>
     </SpawnGroup>
