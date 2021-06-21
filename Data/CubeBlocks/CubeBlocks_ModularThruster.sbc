@@ -48,6 +48,7 @@
 			<MirroringBlock>modular_45_right_face_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -119,6 +120,7 @@
 			<MirroringBlock>modular_45_right_1finbottom_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -190,6 +192,7 @@
 			<MirroringBlock>modular_45_right_1finright_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -261,6 +264,7 @@
 			<MirroringBlock>modular_45_right_1finleft_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -332,6 +336,7 @@
 			<MirroringBlock>modular_45_right_3sides_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -403,6 +408,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -474,6 +480,7 @@
 			<MirroringBlock>modular_45_right_leftcorner_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -547,6 +554,7 @@
 			<MirroringBlock>modular_45_left_face_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -618,6 +626,7 @@
 			<MirroringBlock>modular_45_left_1finbottom_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -689,6 +698,7 @@
 			<MirroringBlock>modular_45_left_1finleft_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -760,6 +770,7 @@
 			<MirroringBlock>modular_45_left_1finright_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -831,6 +842,7 @@
 			<MirroringBlock>modular_45_left_3sides_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -902,6 +914,7 @@
 			<MirroringBlock>modular_45_left_leftcorner_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -973,6 +986,7 @@
 			<MirroringBlock>modular_45_left_rightcorner_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1045,6 +1059,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1115,6 +1130,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1186,6 +1202,7 @@
 			<MirroringX>Z</MirroringX>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1256,6 +1273,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1327,6 +1345,7 @@
 			<MirroringX>HalfZ</MirroringX>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1396,6 +1415,7 @@
 			<BuildTimeSeconds>25</BuildTimeSeconds>
 			<DisassembleRatio>1</DisassembleRatio>
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1469,6 +1489,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1540,6 +1561,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1611,6 +1633,7 @@
 			<MirroringBlock>modular_halframpfront_right_L</MirroringBlock>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1682,6 +1705,7 @@
 			<MirroringBlock>modular_halframpfront_left_L</MirroringBlock>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1753,6 +1777,7 @@
 			<MirroringBlock>modular_halframprear_rightside_L</MirroringBlock>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1824,6 +1849,7 @@
 			<MirroringBlock>modular_halframprear_leftside_L</MirroringBlock>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>4.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1894,6 +1920,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -1964,6 +1991,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="0" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2037,6 +2065,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2108,6 +2137,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2180,6 +2210,7 @@
 			<MirroringBlock>modular_ramp_1side_Left_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2252,6 +2283,7 @@
 			<MirroringBlock>modular_ramp_1side_Right_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2324,6 +2356,7 @@
 			<MirroringBlock>modular_ramp_rightcorner_bottom_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2396,6 +2429,7 @@
 			<MirroringBlock>modular_ramprightcorner_top_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2468,6 +2502,7 @@
 			<MirroringBlock>modular_ramp_leftcorner_bottom_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2540,6 +2575,7 @@
 			<MirroringBlock>modular_ramp_leftcorner_top_L</MirroringBlock>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2611,6 +2647,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2682,6 +2719,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2753,6 +2791,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2824,6 +2863,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2896,6 +2936,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -2966,6 +3007,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3037,6 +3079,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3108,6 +3151,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3179,6 +3223,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3250,6 +3295,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3321,6 +3367,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3392,6 +3439,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3462,6 +3510,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3532,6 +3581,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3602,6 +3652,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3672,6 +3723,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3742,6 +3794,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3813,6 +3866,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
@@ -3886,6 +3940,7 @@
 			<MirroringZ>Y</MirroringZ>
 			<Center x="0" y="0" z="1" />
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>1750000</ForceMagnitude>
 			<MaxPowerConsumption>9</MaxPowerConsumption>
 			<MinPowerConsumption>0.0001</MinPowerConsumption>
 			<SlowdownFactor>2</SlowdownFactor>
