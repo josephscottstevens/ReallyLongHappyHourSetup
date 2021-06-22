@@ -27,9 +27,9 @@
 
       <Prerequisites>
         <Item Amount="8" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
-        <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="21" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="12" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
 
       <Result Amount="1" TypeId="Component" SubtypeId="Nanotubes" />
@@ -46,10 +46,10 @@
 
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="StrangeMatterCanister" />
-        <Item Amount="42" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="68" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="16" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="14" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="24" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="24" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
       
       <Result Amount="1" TypeId="Component" SubtypeId="MolecularMotor" />
