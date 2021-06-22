@@ -31,15 +31,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_face</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -103,15 +103,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_1finbottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -175,15 +175,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_1finleft</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -247,15 +247,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_1finright</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -319,15 +319,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_3sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -391,15 +391,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_leftcorner</BlockPairName>
 			<MirroringBlock>modular_45_right_rightcorner_L</MirroringBlock>
 			<EdgeType>Light</EdgeType>
@@ -463,15 +463,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_left_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_left_rightcorner</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -537,15 +537,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_face</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -609,15 +609,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_1finbottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -681,15 +681,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_1finleft</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -753,15 +753,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_1finright</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -825,15 +825,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_3sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -897,15 +897,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_leftcorner_L</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -969,15 +969,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_45_right_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_45_right_rightcorner</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1043,15 +1043,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_nosides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1114,15 +1114,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_w_2sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1185,15 +1185,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_w_1side</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1257,15 +1257,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_w_4sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1328,15 +1328,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_w_corner</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1400,15 +1400,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_face_nosides_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_face_w_3sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<MirroringX>Z</MirroringX>
@@ -1472,15 +1472,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframp_front</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1544,15 +1544,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframpback</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1616,15 +1616,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframpfront_left</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1688,15 +1688,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframp_front_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframpfront_right</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1760,15 +1760,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframprear_leftside</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1832,15 +1832,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halframpback_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halframprear_rightside</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1904,15 +1904,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halfslab_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halfslab</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -1975,15 +1975,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_halfslope_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="Thrust" Count="25" />
-				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="OsmiumPlate" Count="10" />
 				<Component Subtype="MolecularMotor" Count="5" />
-				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="OsmiumPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_halfslope</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2048,15 +2048,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_face</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2120,15 +2120,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_2sides_LR</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2192,15 +2192,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_1side_Right_L</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2265,15 +2265,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_1side_Left</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2338,15 +2338,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_leftcorner_bottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2411,15 +2411,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_leftcorner_top</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2484,15 +2484,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_rightcorner_bottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2557,15 +2557,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramprightcorner_top</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2630,15 +2630,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_top_fin</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2702,15 +2702,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_top_bottomfins_L</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2774,15 +2774,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_bottom_fin</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2846,15 +2846,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_ramp_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_ramp_4sides</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2920,15 +2920,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_face</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -2991,15 +2991,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_2sides_LR</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3062,15 +3062,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_1side_Right</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3134,15 +3134,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_1side_Left</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3206,15 +3206,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_leftcorner_bottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3278,15 +3278,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_leftcorner_top</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3350,15 +3350,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_rightcorner_bottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3422,15 +3422,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_sloperightcorner_top</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3494,15 +3494,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_top_fin</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3565,15 +3565,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_top_bottomfins_L</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3636,15 +3636,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_bottom_fin</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3707,15 +3707,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_3sidesbottom</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3778,15 +3778,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_3sidestop</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3849,15 +3849,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_3sidesLeft</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
@@ -3921,15 +3921,15 @@
 				<Model BuildPercentUpperBound="1.00" File="..\2161243333\Models\modular_slope_face_L_BS3.mwm" />
 			</BuildProgressModels>
 			<Components>
+				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="Construction" Count="150" />
 				<Component Subtype="Thrust" Count="50" />
-				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="OsmiumPlate" Count="20" />
 				<Component Subtype="MolecularMotor" Count="10" />
-				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="OsmiumPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="OsmiumPlate" Index="0" />
+			<CriticalComponent Subtype="MolecularMotor" Index="0" />
 			<BlockPairName>modular_slope_3sidesright</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>25</BuildTimeSeconds>
