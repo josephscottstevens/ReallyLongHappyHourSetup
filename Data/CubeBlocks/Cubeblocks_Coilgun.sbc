@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+
+		<!-- Large JDD -->
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>UNSC_Coilgun_Block</SubtypeId>
+            </Id>
+            <DisplayName>Coilgun Battery</DisplayName>
+            <Description>All round general purpose weapon</Description>
+			<GuiVisible>true</GuiVisible>
+        
+            <Icon>..\2448975310\Textures\GUI\Icons\UNSC_Coilgun.png</Icon>
+            
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="4"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>..\2448975310\Models\TestMain.mwm</Model>
+            <Components>
+				<Component Count="100" Subtype="SteelPlate"/>
+				<Component Count="150" Subtype="Construction"/>
+				<Component Count="20" Subtype="LargeTube" />
+				<Component Count="50" Subtype="MetalGrid" />
+                <Component Count="50" Subtype="Computer"/>
+                <Component Count="4" Subtype="CoilgunCapacitor"/>
+				<Component Count="100" Subtype="Construction"/>
+				<Component Count="150" Subtype="SteelPlate"/>
+            </Components>
+            <CriticalComponent Index="1" Subtype="Construction"/>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="4.0" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3.0" EndY="4.0"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="..\2448975310\Models\TestMain_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="..\2448975310\Models\TestMain_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="..\2448975310\Models\TestMain_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<RequiredPowerInput>0.00002</RequiredPowerInput>
+            <PCU>800</PCU>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

@@ -128,6 +128,27 @@
       <DropProbability>1.0</DropProbability>
       <Health>4</Health>
     </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CoilgunCapacitor</SubtypeId>
+      </Id>
+      <DisplayName>Coilgun Capacitor</DisplayName>
+      <Icon>Textures\coilgunCapacitor.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>2</Volume>
+      <Model>Models\coilgunCapacitor.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>1.0</DropProbability>
+      <Health>4</Health>
+    </Component>
     
   </Components>
 </Definitions>
