@@ -74,15 +74,5 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ShieldComponentBP</SubtypeId>
-      </Id>
-      <Prerequisites>
-      </Prerequisites>
-      <Result Amount="0" TypeId="Component" SubtypeId="ShieldComponent" />
-    </Blueprint>
-
   </Blueprints>
 </Definitions>
