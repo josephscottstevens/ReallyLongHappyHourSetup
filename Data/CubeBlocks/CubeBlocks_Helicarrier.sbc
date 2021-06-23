@@ -10,12 +10,12 @@
         <SubtypeId>LargeHelithrustercornertiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner_tiny.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_corner_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_corner_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="44" />
@@ -29,9 +29,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_corner_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_corner_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_corner_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -111,12 +111,12 @@
         <SubtypeId>LargeHelithrustercornersmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_corner_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_corner_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -140,9 +140,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornersmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -207,12 +207,12 @@
         <SubtypeId>LargeHelithrustercornerlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_corner_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_corner_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="700" />
         <Component Subtype="Construction" Count="210" />
@@ -239,9 +239,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_corner_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_corner_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_corner_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornerlarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -310,12 +310,12 @@
         <SubtypeId>LargeHelithrustercornerxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_corner_x_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_corner_x_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="6700" />
         <Component Subtype="Construction" Count="510" />
@@ -329,9 +329,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_corner_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_corner_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_corner_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_corner_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_corner_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_corner_x_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornerxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -396,12 +396,12 @@
        <SubtypeId>SmallLargeHelithrustercornertiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner_tiny.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_corner_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_corner_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="4" />
         <Component Subtype="Construction" Count="3" />
@@ -415,9 +415,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_corner_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_corner_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_corner_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_corner_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -496,12 +496,12 @@
        <SubtypeId>SmallLargeHelithrustercornersmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_corner_small.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_corner_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="30" />
@@ -519,9 +519,9 @@
         <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_corner_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornersmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -586,12 +586,12 @@
        <SubtypeId>SmallLargeHelithrustercornerlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_corner_large.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_corner_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
@@ -609,9 +609,9 @@
         <MountPoint Side="Right" StartX="0" StartY="3" EndX="3" EndY="6" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_corner_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_corner_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_corner_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_corner_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornerlarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -676,12 +676,12 @@
         <SubtypeId>SmallLargeHelithrustercornerxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster corner X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_corner.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_corner.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_corner_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_corner_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="300" />
         <Component Subtype="Construction" Count="140" />
@@ -705,9 +705,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="15" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_corner_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helicornerxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -770,12 +770,12 @@
         <SubtypeId>LargeHelithrusteredgesmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_edge_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_edge_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -794,9 +794,9 @@
         <MountPoint Side="Right" StartX="0" StartY="2" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -870,12 +870,12 @@
         <SubtypeId>LargeHelithrusteredgelarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_edge_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_edge_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="700" />
         <Component Subtype="Construction" Count="210" />
@@ -896,9 +896,9 @@
         <MountPoint Side="Right" StartX="0" StartY="6" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_edge_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_edge_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_edge_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Heliedgelarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -963,12 +963,12 @@
         <SubtypeId>LargeHelithrusteredgexlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_edge_x_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_edge_x_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="6700" />
         <Component Subtype="Construction" Count="510" />
@@ -982,9 +982,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_edge_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_edge_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_edge_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_edge_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_edge_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_edge_x_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Heliedgexlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -1049,12 +1049,12 @@
        <SubtypeId>SmallLargeHelithrusteredgesmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_edge_small.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_edge_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="30" />
@@ -1072,9 +1072,9 @@
         <MountPoint Side="Right" StartX="0" StartY="2" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_edge_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -1148,12 +1148,12 @@
        <SubtypeId>SmallLargeHelithrusteredgelarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_edge_large.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_edge_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
@@ -1173,9 +1173,9 @@
         <MountPoint Side="Right" StartX="0" StartY="6" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_edge_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_edge_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_edge_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_edge_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Heliedgelarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -1240,12 +1240,12 @@
         <SubtypeId>SmallLargeHelithrusteredgexlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster edge X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_edge.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_edge.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_edge_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_edge_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="300" />
         <Component Subtype="Construction" Count="140" />
@@ -1263,9 +1263,9 @@
         <MountPoint Side="Right" StartX="0" StartY="10" EndX="5" EndY="15" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_edge_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Heliedgexlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -1328,12 +1328,12 @@
         <SubtypeId>LargeHelithrusterfulltiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full_tiny.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_full_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_full_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="44" />
@@ -1347,9 +1347,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_full_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_full_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_full_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -1426,12 +1426,12 @@
         <SubtypeId>LargeHelithrusterfullsmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_full_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_full_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -1458,9 +1458,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifullsmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -1525,12 +1525,12 @@
         <SubtypeId>LargeHelithrusterfulllarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_full_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_full_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="700" />
         <Component Subtype="Construction" Count="210" />
@@ -1557,9 +1557,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_full_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_full_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_full_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifulllarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -1623,12 +1623,12 @@
         <SubtypeId>LargeHelithrusterfullxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_full_x_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_full_x_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="6700" />
         <Component Subtype="Construction" Count="510" />
@@ -1642,9 +1642,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_full_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_full_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_full_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_full_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_full_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_full_x_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifullxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -1710,12 +1710,12 @@
        <SubtypeId>SmallLargeHelithrusterfulltiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full_tiny.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_full_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_full_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="4" />
         <Component Subtype="Construction" Count="3" />
@@ -1729,9 +1729,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_full_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_full_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_full_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_full_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -1810,12 +1810,12 @@
        <SubtypeId>SmallLargeHelithrusterfullsmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_full_small.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_full_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="30" />
@@ -1841,9 +1841,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_full_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifullsmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -1908,12 +1908,12 @@
        <SubtypeId>SmallLargeHelithrusterfulllarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_full_large.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_full_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
@@ -1939,9 +1939,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_full_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_full_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_full_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_full_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifulllarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -2005,12 +2005,12 @@
         <SubtypeId>SmallLargeHelithrusterfullxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster full X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_full.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_full.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_full_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_full_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="300" />
         <Component Subtype="Construction" Count="140" />
@@ -2036,9 +2036,9 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="15" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_full_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helifullxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -2101,12 +2101,12 @@
         <SubtypeId>LargeHelithrustersidetiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side_tiny.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_side_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_side_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="44" />
@@ -2120,9 +2120,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_side_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_side_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_side_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -2209,12 +2209,12 @@
         <SubtypeId>LargeHelithrustersidesmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_side_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_side_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -2236,9 +2236,9 @@
         <MountPoint Side="Right" StartX="0" StartY="2" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidesmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -2303,12 +2303,12 @@
         <SubtypeId>LargeHelithrustersidelarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_side_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_side_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="700" />
         <Component Subtype="Construction" Count="210" />
@@ -2332,9 +2332,9 @@
         <MountPoint Side="Right" StartX="0" StartY="6" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_side_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_side_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_side_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidelarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -2401,12 +2401,12 @@
         <SubtypeId>LargeHelithrustersidexlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_side_x_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_side_x_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="6700" />
         <Component Subtype="Construction" Count="510" />
@@ -2420,9 +2420,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_side_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_side_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_side_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_side_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_side_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_side_x_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidexlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -2488,12 +2488,12 @@
        <SubtypeId>SmallLargeHelithrustersidetiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side_tiny.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_side_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_side_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="4" />
         <Component Subtype="Construction" Count="3" />
@@ -2507,9 +2507,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_side_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_side_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_side_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_side_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -2592,12 +2592,12 @@
        <SubtypeId>SmallLargeHelithrustersidesmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_side_small.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_side_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="30" />
@@ -2618,9 +2618,9 @@
         <MountPoint Side="Right" StartX="0" StartY="2" EndX="1" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_side_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidesmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -2685,12 +2685,12 @@
        <SubtypeId>SmallLargeHelithrustersidelarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_side_large.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_side_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
@@ -2713,9 +2713,9 @@
         <MountPoint Side="Right" StartX="0" StartY="6" EndX="3" EndY="9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_side_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_side_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_side_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_side_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidelarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -2780,12 +2780,12 @@
         <SubtypeId>SmallLargeHelithrustersidexlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster side X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_side.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_side.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_side_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_side_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="300" />
         <Component Subtype="Construction" Count="140" />
@@ -2807,9 +2807,9 @@
         <MountPoint Side="Right" StartX="0" StartY="10" EndX="5" EndY="15" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_side_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisidexlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -2872,12 +2872,12 @@
         <SubtypeId>LargeHelithrustersolotiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo_tiny.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_solo_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_solo_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="44" />
@@ -2891,9 +2891,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_solo_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_solo_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_solo_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -2973,12 +2973,12 @@
         <SubtypeId>LargeHelithrustersolosmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_solo_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_solo_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -2997,9 +2997,9 @@
         <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisolosmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -3064,12 +3064,12 @@
         <SubtypeId>LargeHelithrustersololarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_solo_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_solo_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="700" />
         <Component Subtype="Construction" Count="210" />
@@ -3088,9 +3088,9 @@
         <MountPoint Side="Right" StartX="0" StartY="3" EndX="3" EndY="6" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_solo_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_solo_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_solo_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisololarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -3159,12 +3159,12 @@
         <SubtypeId>LargeHelithrustersoloxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_solo_x_large.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_solo_x_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="6700" />
         <Component Subtype="Construction" Count="510" />
@@ -3178,9 +3178,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_solo_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_solo_x_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_solo_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_solo_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_solo_x_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_solo_x_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisoloxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />
@@ -3246,12 +3246,12 @@
        <SubtypeId>SmallLargeHelithrustersolotiny</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo tiny</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo_tiny.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo_tiny.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_solo_tiny.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_solo_tiny.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="4" />
         <Component Subtype="Construction" Count="3" />
@@ -3265,9 +3265,9 @@
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_solo_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_solo_tiny_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_solo_tiny_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_solo_tiny_constr1.mwm" />
       </BuildProgressModels>
       <BlockVariants>
         <BlockVariant>
@@ -3347,12 +3347,12 @@
        <SubtypeId>SmallLargeHelithrustersolosmall</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo small</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_solo_small.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_solo_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="35" />
         <Component Subtype="Construction" Count="30" />
@@ -3370,9 +3370,9 @@
         <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_solo_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisolosmall</BlockPairName>
       <Center x="1" y="1" z="0" />
@@ -3437,12 +3437,12 @@
        <SubtypeId>SmallLargeHelithrustersololarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Small\Heli_thruster_solo_large.mwm</Model>
+      <Model>Models\Helicarrier\Small\Heli_thruster_solo_large.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
@@ -3460,9 +3460,9 @@
         <MountPoint Side="Right" StartX="0" StartY="3" EndX="3" EndY="6" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Small\Heli_thruster_solo_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Small\Heli_thruster_solo_large_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Small\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Small\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Small\Heli_thruster_solo_large_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Small\Heli_thruster_solo_large_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisololarge</BlockPairName>
       <Center x="3" y="3" z="1" />
@@ -3528,12 +3528,12 @@
         <SubtypeId>SmallLargeHelithrustersoloxlarge</SubtypeId>
       </Id>
       <DisplayName>Heli Thruster solo X large</DisplayName>
-      <Icon>..\565342887\Textures\GUI\Heli_thruster_solo.dds</Icon>
+      <Icon>Textures\Helicarrier\GUI\Heli_thruster_solo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="15" y="15" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\565342887\Models\Large\Heli_thruster_solo_small.mwm</Model>
+      <Model>Models\Helicarrier\Large\Heli_thruster_solo_small.mwm</Model>
       <Components>
         <Component Subtype="OsmiumPlate" Count="300" />
         <Component Subtype="Construction" Count="140" />
@@ -3551,9 +3551,9 @@
         <MountPoint Side="Right" StartX="0" StartY="5" EndX="5" EndY="10" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\565342887\Models\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Helicarrier\Large\Heli_thruster_solo_small_constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Helisoloxlarge</BlockPairName>
       <Center x="5" y="5" z="2" />

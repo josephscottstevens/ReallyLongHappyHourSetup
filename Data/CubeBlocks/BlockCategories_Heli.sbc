@@ -1,0 +1,47 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>+ Rider - Heli Thruster</DisplayName>
+      <Name>z-mod-rider-Heli Thruster</Name>
+      <ItemIds>
+
+        <string>Thrust/LargeHelithrusterfulltiny</string>
+        <string>Thrust/LargeHelithrusterfullsmall</string>
+        <string>Thrust/LargeHelithrusterfulllarge</string>
+        <string>Thrust/LargeHelithrusterfullxlarge</string>
+
+        <string>Thrust/LargeHelithrustersidetiny</string>
+        <string>Thrust/LargeHelithrustersidesmall</string>
+        <string>Thrust/LargeHelithrustersidelarge</string>
+        <string>Thrust/LargeHelithrustersidexlarge</string>
+
+        <string>Thrust/LargeHelithrusteredgetiny</string>
+        <string>Thrust/LargeHelithrusteredgesmall</string>
+        <string>Thrust/LargeHelithrusteredgelarge</string>
+        <string>Thrust/LargeHelithrusteredgexlarge</string>
+
+        <string>Thrust/LargeHelithrustersolotiny</string>
+        <string>Thrust/LargeHelithrustersolosmall</string>
+        <string>Thrust/LargeHelithrustersololarge</string>
+        <string>Thrust/LargeHelithrustersoloxlarge</string>
+
+
+        <string>Thrust/LargeHelithrustercornertiny</string>
+        <string>Thrust/LargeHelithrustercornersmall</string>
+        <string>Thrust/LargeHelithrustercornerlarge</string>
+        <string>Thrust/LargeHelithrustercornerxlarge</string>
+
+      </ItemIds>
+    </Category>
+
+
+
+
+  </CategoryClasses>
+</Definitions>
