@@ -21,7 +21,7 @@
         <Component Subtype="Construction" Count="44" />
         <Component Subtype="LargeTube" Count="16" />
         <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="MolecularMotor" Count="156" />        
+        <Component Subtype="MolecularMotor" Count="15" />        
         <Component Subtype="Construction" Count="22" />
         <Component Subtype="OsmiumPlate" Count="23" />
       </Components>
@@ -122,7 +122,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="80" />
         <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="MolecularMotor" Count="1336" />        
+        <Component Subtype="MolecularMotor" Count="133" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -218,7 +218,7 @@
         <Component Subtype="Construction" Count="210" />
         <Component Subtype="LargeTube" Count="100" />
         <Component Subtype="MetalGrid" Count="140" />
-        <Component Subtype="MolecularMotor" Count="1836" />        
+        <Component Subtype="MolecularMotor" Count="183" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="330" />
       </Components>
@@ -321,7 +321,7 @@
         <Component Subtype="Construction" Count="510" />
         <Component Subtype="LargeTube" Count="320" />
         <Component Subtype="MetalGrid" Count="440" />
-        <Component Subtype="MolecularMotor" Count="4836" />        
+        <Component Subtype="MolecularMotor" Count="483" />        
         <Component Subtype="Construction" Count="420" />
         <Component Subtype="OsmiumPlate" Count="2330" />
       </Components>
@@ -407,7 +407,7 @@
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="3" />
         <Component Subtype="MetalGrid" Count="2" />
-        <Component Subtype="MolecularMotor" Count="26" />
+        <Component Subtype="MolecularMotor" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="OsmiumPlate" Count="4" />
       </Components>
@@ -507,7 +507,7 @@
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="14" />
         <Component Subtype="MetalGrid" Count="18" />
-        <Component Subtype="MolecularMotor" Count="164" />
+        <Component Subtype="MolecularMotor" Count="16" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="35" />
       </Components>
@@ -597,7 +597,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
         <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="MolecularMotor" Count="536" />        
+        <Component Subtype="MolecularMotor" Count="53" />        
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -687,7 +687,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="240" />
         <Component Subtype="MetalGrid" Count="150" />
-        <Component Subtype="MolecularMotor" Count="1536" />        
+        <Component Subtype="MolecularMotor" Count="153" />        
         <Component Subtype="Construction" Count="360" />
         <Component Subtype="OsmiumPlate" Count="390" />
       </Components>
@@ -781,7 +781,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="80" />
         <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="MolecularMotor" Count="1336" />        
+        <Component Subtype="MolecularMotor" Count="133" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -881,7 +881,7 @@
         <Component Subtype="Construction" Count="210" />
         <Component Subtype="LargeTube" Count="100" />
         <Component Subtype="MetalGrid" Count="140" />
-        <Component Subtype="MolecularMotor" Count="1836" />        
+        <Component Subtype="MolecularMotor" Count="183" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="330" />
       </Components>
@@ -974,7 +974,7 @@
         <Component Subtype="Construction" Count="510" />
         <Component Subtype="LargeTube" Count="320" />
         <Component Subtype="MetalGrid" Count="440" />
-        <Component Subtype="MolecularMotor" Count="4836" />        
+        <Component Subtype="MolecularMotor" Count="483" />        
         <Component Subtype="Construction" Count="420" />
         <Component Subtype="OsmiumPlate" Count="2330" />
       </Components>
@@ -1060,7 +1060,7 @@
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="14" />
         <Component Subtype="MetalGrid" Count="18" />
-        <Component Subtype="MolecularMotor" Count="164" />
+        <Component Subtype="MolecularMotor" Count="16" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="35" />
       </Components>
@@ -1159,7 +1159,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
         <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="MolecularMotor" Count="536" />        
+        <Component Subtype="MolecularMotor" Count="53" />        
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -1251,7 +1251,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="240" />
         <Component Subtype="MetalGrid" Count="150" />
-        <Component Subtype="MolecularMotor" Count="1536" />        
+        <Component Subtype="MolecularMotor" Count="153" />        
         <Component Subtype="Construction" Count="360" />
         <Component Subtype="OsmiumPlate" Count="390" />
       </Components>
@@ -1339,7 +1339,7 @@
         <Component Subtype="Construction" Count="44" />
         <Component Subtype="LargeTube" Count="16" />
         <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="MolecularMotor" Count="156" />        
+        <Component Subtype="MolecularMotor" Count="15" />        
         <Component Subtype="Construction" Count="22" />
         <Component Subtype="OsmiumPlate" Count="23" />
       </Components>
@@ -1437,7 +1437,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="80" />
         <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="MolecularMotor" Count="1336" />        
+        <Component Subtype="MolecularMotor" Count="133" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -1536,7 +1536,7 @@
         <Component Subtype="Construction" Count="210" />
         <Component Subtype="LargeTube" Count="100" />
         <Component Subtype="MetalGrid" Count="140" />
-        <Component Subtype="MolecularMotor" Count="1836" />        
+        <Component Subtype="MolecularMotor" Count="183" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="330" />
       </Components>
@@ -1634,7 +1634,7 @@
         <Component Subtype="Construction" Count="510" />
         <Component Subtype="LargeTube" Count="320" />
         <Component Subtype="MetalGrid" Count="440" />
-        <Component Subtype="MolecularMotor" Count="4836" />        
+        <Component Subtype="MolecularMotor" Count="483" />        
         <Component Subtype="Construction" Count="420" />
         <Component Subtype="OsmiumPlate" Count="2330" />
       </Components>
@@ -1721,7 +1721,7 @@
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="3" />
         <Component Subtype="MetalGrid" Count="2" />
-        <Component Subtype="MolecularMotor" Count="26" />
+        <Component Subtype="MolecularMotor" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="OsmiumPlate" Count="4" />
       </Components>
@@ -1821,7 +1821,7 @@
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="14" />
         <Component Subtype="MetalGrid" Count="18" />
-        <Component Subtype="MolecularMotor" Count="164" />
+        <Component Subtype="MolecularMotor" Count="16" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="35" />
       </Components>
@@ -1919,7 +1919,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
         <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="MolecularMotor" Count="536" />        
+        <Component Subtype="MolecularMotor" Count="53" />        
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -2016,7 +2016,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="240" />
         <Component Subtype="MetalGrid" Count="150" />
-        <Component Subtype="MolecularMotor" Count="1536" />        
+        <Component Subtype="MolecularMotor" Count="153" />        
         <Component Subtype="Construction" Count="360" />
         <Component Subtype="OsmiumPlate" Count="390" />
       </Components>
@@ -2112,7 +2112,7 @@
         <Component Subtype="Construction" Count="44" />
         <Component Subtype="LargeTube" Count="16" />
         <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="MolecularMotor" Count="156" />        
+        <Component Subtype="MolecularMotor" Count="15" />        
         <Component Subtype="Construction" Count="22" />
         <Component Subtype="OsmiumPlate" Count="23" />
       </Components>
@@ -2220,7 +2220,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="80" />
         <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="MolecularMotor" Count="1336" />        
+        <Component Subtype="MolecularMotor" Count="133" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -2314,7 +2314,7 @@
         <Component Subtype="Construction" Count="210" />
         <Component Subtype="LargeTube" Count="100" />
         <Component Subtype="MetalGrid" Count="140" />
-        <Component Subtype="MolecularMotor" Count="1836" />        
+        <Component Subtype="MolecularMotor" Count="183" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="330" />
       </Components>
@@ -2412,7 +2412,7 @@
         <Component Subtype="Construction" Count="510" />
         <Component Subtype="LargeTube" Count="320" />
         <Component Subtype="MetalGrid" Count="440" />
-        <Component Subtype="MolecularMotor" Count="4836" />        
+        <Component Subtype="MolecularMotor" Count="483" />        
         <Component Subtype="Construction" Count="420" />
         <Component Subtype="OsmiumPlate" Count="2330" />
       </Components>
@@ -2499,7 +2499,7 @@
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="3" />
         <Component Subtype="MetalGrid" Count="2" />
-        <Component Subtype="MolecularMotor" Count="26" />
+        <Component Subtype="MolecularMotor" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="OsmiumPlate" Count="4" />
       </Components>
@@ -2603,7 +2603,7 @@
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="14" />
         <Component Subtype="MetalGrid" Count="18" />
-        <Component Subtype="MolecularMotor" Count="164" />
+        <Component Subtype="MolecularMotor" Count="16" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="35" />
       </Components>
@@ -2696,7 +2696,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
         <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="MolecularMotor" Count="536" />        
+        <Component Subtype="MolecularMotor" Count="53" />        
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -2791,7 +2791,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="240" />
         <Component Subtype="MetalGrid" Count="150" />
-        <Component Subtype="MolecularMotor" Count="1536" />        
+        <Component Subtype="MolecularMotor" Count="153" />        
         <Component Subtype="Construction" Count="360" />
         <Component Subtype="OsmiumPlate" Count="390" />
       </Components>
@@ -2883,7 +2883,7 @@
         <Component Subtype="Construction" Count="44" />
         <Component Subtype="LargeTube" Count="16" />
         <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="MolecularMotor" Count="156" />        
+        <Component Subtype="MolecularMotor" Count="15" />        
         <Component Subtype="Construction" Count="22" />
         <Component Subtype="OsmiumPlate" Count="23" />
       </Components>
@@ -2984,7 +2984,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="80" />
         <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="MolecularMotor" Count="1336" />        
+        <Component Subtype="MolecularMotor" Count="133" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -3075,7 +3075,7 @@
         <Component Subtype="Construction" Count="210" />
         <Component Subtype="LargeTube" Count="100" />
         <Component Subtype="MetalGrid" Count="140" />
-        <Component Subtype="MolecularMotor" Count="1836" />        
+        <Component Subtype="MolecularMotor" Count="183" />        
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="OsmiumPlate" Count="330" />
       </Components>
@@ -3170,7 +3170,7 @@
         <Component Subtype="Construction" Count="510" />
         <Component Subtype="LargeTube" Count="320" />
         <Component Subtype="MetalGrid" Count="440" />
-        <Component Subtype="MolecularMotor" Count="4836" />        
+        <Component Subtype="MolecularMotor" Count="483" />        
         <Component Subtype="Construction" Count="420" />
         <Component Subtype="OsmiumPlate" Count="2330" />
       </Components>
@@ -3257,7 +3257,7 @@
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="3" />
         <Component Subtype="MetalGrid" Count="2" />
-        <Component Subtype="MolecularMotor" Count="26" />
+        <Component Subtype="MolecularMotor" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="OsmiumPlate" Count="4" />
       </Components>
@@ -3358,7 +3358,7 @@
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="14" />
         <Component Subtype="MetalGrid" Count="18" />
-        <Component Subtype="MolecularMotor" Count="164" />
+        <Component Subtype="MolecularMotor" Count="16" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="35" />
       </Components>
@@ -3448,7 +3448,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
         <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="MolecularMotor" Count="536" />        
+        <Component Subtype="MolecularMotor" Count="53" />        
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="OsmiumPlate" Count="130" />
       </Components>
@@ -3539,7 +3539,7 @@
         <Component Subtype="Construction" Count="140" />
         <Component Subtype="LargeTube" Count="240" />
         <Component Subtype="MetalGrid" Count="150" />
-        <Component Subtype="MolecularMotor" Count="1536" />        
+        <Component Subtype="MolecularMotor" Count="153" />        
         <Component Subtype="Construction" Count="360" />
         <Component Subtype="OsmiumPlate" Count="390" />
       </Components>
