@@ -3,7 +3,6 @@
     <PhysicalItems>
 
     <!--ORES-->
-
         <PhysicalItem>
             <Id>
                 <TypeId>Ore</TypeId>
@@ -33,27 +32,6 @@
         </PhysicalItem>
 
         <!--INGOTS-->
-
-        <PhysicalItem>
-            <Id>
-                <TypeId>Ingot</TypeId>
-                <SubtypeId>StrangeMatterCanister</SubtypeId>
-            </Id>
-            <DisplayName>Strange Matter Canister</DisplayName>
-            <Icon>Textures\canister.dds</Icon>
-
-            <Size>
-                <X>0.05</X>
-                <Y>0.05</Y>
-                <Z>0.05</Z>
-            </Size>
-            <Mass>1</Mass>
-            <Volume>0.127</Volume>
-            <Model>Models\strange_matter_canister.mwm</Model>
-            <PhysicalMaterial>Metal</PhysicalMaterial>
-            <IconSymbol></IconSymbol>
-            <CanPlayerOrder>true</CanPlayerOrder>
-        </PhysicalItem>
         <PhysicalItem>
             <Id>
                 <TypeId>Ingot</TypeId>
@@ -80,7 +58,6 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
         </PhysicalItem>
-        
         
     </PhysicalItems>
 </Definitions>

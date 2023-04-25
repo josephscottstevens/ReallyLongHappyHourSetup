@@ -43,28 +43,6 @@
       <Health>18</Health>
     </Component>
 
-    <Component>
-      <Id>
-        <TypeId>Component</TypeId>
-        <SubtypeId>OsmiumPlate</SubtypeId>
-      </Id>
-      <DisplayName>Osmium Plate</DisplayName>
-      <Icon>Textures\osmiumPlating.dds</Icon>
-      <Size>
-        <X>0.2</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>30</Mass>
-      <Volume>2</Volume>
-      <Model>Models\osmium_plate.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>230</MaxIntegrity>
-      <DropProbability>0.5</DropProbability>
-      <Health>130</Health>
-    </Component>
-
-
     <!-- Legendary Loot -->
     <Component>
       <Id>
