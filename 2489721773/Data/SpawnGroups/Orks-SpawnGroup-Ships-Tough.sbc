@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		
+		<!--BlastaBarge-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughBlastaBarge</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcIonThrustForceMultiply:3]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>3.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) BlastaBarge">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-LargeShipBroadsideHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--DakkaJet-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughDakkaJet</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[RivalAiSpawn:true]
+
+				[MinAirDensity:0.7]
+				[MaxGravity:1.1]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Medium]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2000]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Dakka Jet">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-SmallShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--DeffShip-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughDeffShip</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[SkipAirDensityCheck:true]
+
+				[GravityCargoShip:true]
+				[GravityCargoShipChance:100]
+
+				[ChanceCeiling:250]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[MaxGravity:1.5]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>3.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Deff Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-MediumShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--FightaBomba-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughFightaBomba</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[RivalAiSpawn:true]
+
+				[MinAirDensity:0.7]
+				[MaxGravity:1.1]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Medium]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2000]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Fighta Bomba">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-SmallShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--HeavyFighta-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughHeavyFighta</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[RivalAiSpawn:true]
+
+				[MinAirDensity:0.7]
+				[MaxGravity:1.1]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[NpcIonThrustForceMultiply:1.5]
+				[NpcAtmoThrustForceMultiply:1.5]
+				[NpcHydroThrustForceMultiply:1.5]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2000]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Heavy Fighta">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-SmallShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--LiteKrooza-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughLiteKrooza</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+				[SpaceCargoShipChance:250]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[SkipAirDensityCheck:true]
+
+				[GravityCargoShip:true]
+				[GravityCargoShipChance:100]
+
+				[ChanceCeiling:250]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Medium]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[NpcIonThrustForceMultiply:1.5]
+				[NpcAtmoThrustForceMultiply:1.5]
+				[NpcHydroThrustForceMultiply:1.5]
+
+				[MaxGravity:1.1]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Lite Krooza">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-MediumShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--RavagerAttackShip-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughRavagerAttackShip</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+				[SpaceCargoShipChance:250]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+
+				[SkipAirDensityCheck:true]
+
+				[GravityCargoShip:true]
+				[GravityCargoShipChance:100]
+
+				[ChanceCeiling:250]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[NpcIonThrustForceMultiply:1.5]
+				[NpcAtmoThrustForceMultiply:1.5]
+				[NpcHydroThrustForceMultiply:1.5]
+
+				[MaxGravity:1.1]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Ravager Attack Ship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-LargeShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--SavageGunship-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughSavageGunship</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Savage Gunship">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-MediumShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<!--Shootaboat-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughShootaboat</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+				[SpaceCargoShipChance:250]
+
+				[ChanceCeiling:250]
+
+				[AtmosphericCargoShip:true]
+				[AtmosphericCargoShipChance:1]
+				[SkipAirDensityCheck:true]
+
+				[GravityCargoShip:true]
+				[GravityCargoShipChance:100]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[MaxGravity:1.4]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2500]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>3.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Shootaboat">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-MediumShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+	<!--VoidFighta-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Ship-ToughVoidFighta</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[DisableDampeners:false]
+
+				[SpaceCargoShip:true]
+
+				[MaxAirDensity:0.1]
+				[MaxGravity:0.1]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[RandomWeaponChance:100]
+				[AddDefenseShieldBlocks:true]
+				[ShieldProviderChance:100]
+				[EraseIngameScripts:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Medium]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:2000]
+				[ThreatScoreMaximum:-1]
+
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Void Fighta">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-SmallShipHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+	</SpawnGroups>
+</Definitions>

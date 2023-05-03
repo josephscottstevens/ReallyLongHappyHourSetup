@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<!-- Created by enenra's ContainerType Editor on: 2019-08-20 17:43 -->
+<!-- https://docs.google.com/spreadsheets/d/1_s1o03enFuZxV-OrH-ufegozE_usZcfHkKI_JOXck7A/edit#gid=0 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+	
+		<ContainerType CountMin="1" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Small</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="30" AmountMax="50">
+					<Frequency>2</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="600" AmountMax="1500">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.01</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="10" AmountMax="40">
+                    <Frequency>0.01</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="1" AmountMax="10">
+                    <Frequency>0.01</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CoilgunCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Medium</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="40" AmountMax="60">
+					<Frequency>2</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="800" AmountMax="1500">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="15" AmountMax="50">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="1" AmountMax="10">
+                    <Frequency>0.02</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CoilgunCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-Large</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="80" AmountMax="150">
+					<Frequency>2</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2500">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.05</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="20" AmountMax="60">
+                    <Frequency>0.05</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="1" AmountMax="10">
+                    <Frequency>0.05</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CoilgunCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="2">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>Reaver-Loot-ExtraLarge</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="180" AmountMax="450">
+					<Frequency>2</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>StrangeMatterCanister</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="5000">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.08</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldControllerMainframe</SubtypeId>
+                    </Id>
+                </Item>
+				<Item AmountMin="30" AmountMax="90">
+                    <Frequency>0.08</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>ShieldEmitterDiode</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="1" AmountMax="10">
+                    <Frequency>0.08</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>CoilgunCapacitor</SubtypeId>
+                    </Id>
+                </Item>
+			</Items>
+		</ContainerType>
+
+	</ContainerTypes>																									
+</Definitions>																										
