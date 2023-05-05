@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		
+		<!--BigMekKrooza-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Boss-BigMekKrooza</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[BossEncounterSpace:true]
+				[BossCustomAnnounceEnable:true]
+				[BossCustomAnnounceAuthor:Warboss]
+				[BossCustomAnnounceMessage:WAAAAAAAAAGH!!]
+				[BossCustomGPSLabel:Warp Disturbance]
+
+				[DisableDampeners:false]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-ExtraLarge]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:1500]
+
+				[UseKnownPlayerLocations:true]
+				[KnownPlayerLocationMustMatchFaction:true]
+
+				[ReplaceArmorBlocksWithModules:true]
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Large]
+				
+				[UseCombatPhase:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Big Mek Krooza">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-LargeShipBroadsideHunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<!--KillaKrooZa-->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Orks-SpawnGroup-Boss-KillaKrooZa</SubtypeId>
+			</Id>
+			<Description>
+
+				[Modular Encounters SpawnGroup]
+
+				[BossEncounterSpace:true]
+				[BossCustomAnnounceEnable:true]
+				[BossCustomAnnounceAuthor:Warboss]
+				[BossCustomAnnounceMessage:WAAAAAAAAAGH!!]
+				[BossCustomGPSLabel:Warp Disturbance]
+
+				[DisableDampeners:false]
+
+				[FactionOwner:ORKS]
+				[ReplenishSystems:true]
+				[RandomizeWeapons:true]
+				[AddDefenseShieldBlocks:true]
+
+				[UseRivalAi:true]
+				[RivalAiReplaceRemoteControl:true]
+
+				[UseBlockReplacerProfile:true]
+				[IgnoreGlobalBlockReplacer:true]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+				[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+				
+			[AssignContainerTypesToAllCargo:Ork-Loot-ExtraLarge]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+				[ConfigureSpecialNpcThrusters:true]
+				[RestrictNpcIonThrust:true]
+				[NpcIonThrustPowerMultiply:0.0001]
+				[NpcAtmoThrustPowerMultiply:0.0001]
+				[NpcHydroThrustPowerMultiply:0.0001]
+
+				[UseThreatLevelCheck:true]
+				[ThreatLevelCheckRange:10000]
+				[ThreatScoreMinimum:1500]
+
+				[UseKnownPlayerLocations:true]
+				[KnownPlayerLocationMustMatchFaction:true]
+
+				[ReplaceArmorBlocksWithModules:true]
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Large]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-ORK) Killa KrooZa">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>Orks-Behavior-Boss</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+	</SpawnGroups>
+</Definitions>

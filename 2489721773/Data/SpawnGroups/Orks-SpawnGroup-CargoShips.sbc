@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <!--FlybossCarrier-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Orks-SpawnGroup-Ship-FlybossCarrier</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:50]
+
+        [ChanceCeiling:100]
+
+        [FactionOwner:ORKS]
+        [ReplenishSystems:true]
+        [RandomizeWeapons:true]
+        [RandomWeaponChance:10]
+        [AddDefenseShieldBlocks:true]
+        [ShieldProviderChance:10]
+        [EraseIngameScripts:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+			[AssignContainerTypesToAllCargo:Ork-Loot-Large]
+			[SpawnRandomCargo:true]
+			[UseBlockReplacer:true]
+			[ReplaceBlockOld:MyObjectBuilder_Conveyor/LargeBlockConveyor]
+			[ReplaceBlockNew:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.1]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseCombatPhase:true]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ORK) Flyboss Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Orks-Behavior-CargoShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    
+  </SpawnGroups>
+</Definitions>
