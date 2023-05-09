@@ -10,14 +10,14 @@
 				<SubtypeId>Ork-Loot-Small</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="20" AmountMax="30">
+				<Item AmountMin="10" AmountMax="15">
 					<Frequency>2</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="200" AmountMax="800">
+				<Item AmountMin="100" AmountMax="400">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
@@ -54,14 +54,14 @@
 				<SubtypeId>Ork-Loot-Medium</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="20" AmountMax="30">
+				<Item AmountMin="10" AmountMax="15">
 					<Frequency>2</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="200" AmountMax="800">
+				<Item AmountMin="100" AmountMax="400">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
@@ -98,14 +98,14 @@
 				<SubtypeId>Ork-Loot-Large</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="40" AmountMax="80">
+				<Item AmountMin="20" AmountMax="40">
 					<Frequency>2</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="400" AmountMax="1200">
+				<Item AmountMin="200" AmountMax="600">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
@@ -142,14 +142,14 @@
 				<SubtypeId>Ork-Loot-ExtraLarge</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="90" AmountMax="200">
+				<Item AmountMin="45" AmountMax="100">
 					<Frequency>2</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>StrangeMatterCanister</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="800" AmountMax="2400">
+				<Item AmountMin="400" AmountMax="1200">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Ore</TypeId>
