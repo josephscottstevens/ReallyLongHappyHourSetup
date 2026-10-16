@@ -4,14 +4,39 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>OsmiumWispHum</SubtypeId>
+        <SubtypeId>ArcOsmiumWispHum</SubtypeId>
       </Id>
-      <Category>Particle</Category>
-      <MaxDistance>280</MaxDistance>
-      <UpdateDistance>320</UpdateDistance>
+      <Category>Ship</Category>
+      <MaxDistance>650</MaxDistance>
+      <UpdateDistance>720</UpdateDistance>
       <Volume>1</Volume>
       <Loopable>true</Loopable>
+      <PreventSynchronization>0</PreventSynchronization>
       <SoundLimit>4</SoundLimit>
+      <StreamSound>true</StreamSound>
+      <CanBeSilencedByVoid>false</CanBeSilencedByVoid>
+      <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\OsmiumWispHum.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>OsmiumWispHum</SubtypeId>
+      </Id>
+      <Category>Ship</Category>
+      <MaxDistance>650</MaxDistance>
+      <UpdateDistance>720</UpdateDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <PreventSynchronization>0</PreventSynchronization>
+      <SoundLimit>4</SoundLimit>
+      <StreamSound>true</StreamSound>
+      <CanBeSilencedByVoid>false</CanBeSilencedByVoid>
+      <ModifiableByHelmetFilters>false</ModifiableByHelmetFilters>
       <Waves>
         <Wave Type="D3">
           <Loop>Audio\OsmiumWispHum.wav</Loop>

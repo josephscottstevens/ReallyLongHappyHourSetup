@@ -34,6 +34,7 @@ namespace OsmiumAlienWorld
         const double ChaseRange = 1800.0;
         const double AltitudeChaseSpeed = 50.0;
         const double TerrainClearance = 50.0;
+        const double StormSurfaceClearance = 12.0;
         const int TargetRefreshTicks = 20;
         const int StormGraceTicks = 600;
         const int WispsPerPlayer = 30;
@@ -50,10 +51,11 @@ namespace OsmiumAlienWorld
         const int TrailLifeTicks = 100;
         const int SplashLifeTicks = 50;
         const int FleetingCap = 480;
-        const float HumRange = 220f;
-        const double HumRangeSq = 220.0 * 220.0;
+        const float HumRange = 520f;
+        const double HumRangeSq = 520.0 * 520.0;
         const int MaxHums = 3;
-        const string HumCue = "OsmiumWispHum";
+        const string HumCue = "ArcOsmiumWispHum";
+        const double BoostSpeed = 650.0;
         static readonly Vector4 WispGreen = new Vector4(0.8f, 3.6f, 1.25f, 1f);
 
         readonly List<Wisp> _wisps = new List<Wisp>();
@@ -68,6 +70,7 @@ namespace OsmiumAlienWorld
         readonly Dictionary<long, Vector3D> _playerVel = new Dictionary<long, Vector3D>();
         readonly List<long> _dropIds = new List<long>();
         readonly Dictionary<int, MyEntity3DSoundEmitter> _hums = new Dictionary<int, MyEntity3DSoundEmitter>();
+        readonly Dictionary<int, int> _humRetry = new Dictionary<int, int>();
         readonly HumCandidate[] _humBest = new HumCandidate[MaxHums];
         readonly List<int> _humDrop = new List<int>();
         MySoundPair _humPair;
@@ -220,7 +223,13 @@ namespace OsmiumAlienWorld
                     radial = new Vector3D(0, 1, 0);
                 radial = Vector3D.Normalize(radial);
 
-                bool allowAnyAltitude = wisp.StormGrace > 0 || IsStormAt(wisp.Position);
+                bool stormSample = IsStormAt(wisp.Position) || PlayerInStorm(wisp.Position);
+                if (stormSample)
+                    wisp.StormGrace = StormGraceTicks;
+                else if (wisp.StormGrace > 0)
+                    wisp.StormGrace--;
+
+                bool allowAnyAltitude = wisp.StormGrace > 0;
                 if (_tick >= wisp.NextTargetTick)
                 {
                     wisp.NextTargetTick = _tick + TargetRefreshTicks;
@@ -255,10 +264,10 @@ namespace OsmiumAlienWorld
                     wisp.NextWanderTick = _tick;
                 wisp.WasChasing = wisp.HasTarget;
 
-                wisp.InStorm = wisp.StormGrace > 0 || IsStormAt(wisp.Position) || (wisp.HasTarget && IsStormAt(wisp.Target));
-
-                if (wisp.StormGrace > 0)
-                    wisp.StormGrace--;
+                if (wisp.HasTarget && IsStormAt(wisp.Target))
+                    wisp.StormGrace = StormGraceTicks;
+                wisp.InStorm = wisp.StormGrace > 0;
+                wisp.TargetVelocity = wisp.HasTarget ? GridVelocity(wisp.TargetId) : Vector3D.Zero;
 
                 Vector3D heading = wisp.Heading - radial * Vector3D.Dot(wisp.Heading, radial);
                 if (heading.LengthSquared() < 0.0001)
@@ -268,7 +277,7 @@ namespace OsmiumAlienWorld
                 if (wisp.HasTarget)
                 {
                     double turnRate = ApproachTarget(wisp, heading, radial, center);
-                    SteerToward(ref heading, wisp.Target - wisp.Position, radial, turnRate * TickDt);
+                    SteerToward(ref heading, LeadPoint(wisp) - wisp.Position, radial, turnRate * TickDt);
                 }
                 else
                 {
@@ -282,7 +291,8 @@ namespace OsmiumAlienWorld
 
                     SeparateFromWisps(i, ref heading, radial);
                     DriftAltitude(wisp, planet);
-                    EaseSpeed(wisp, wisp.WanderSpeed, 22.0);
+                    wisp.Boost = Math.Max(0.0, wisp.Boost - 0.035 * TickDt);
+                    EaseSpeed(wisp, wisp.WanderSpeed, wisp.Speed > wisp.WanderSpeed + 5.0 ? 8.0 : 22.0);
                 }
 
                 UpdateAltitude(wisp, planet, center);
@@ -290,7 +300,7 @@ namespace OsmiumAlienWorld
 
                 Vector3D next = wisp.Position + heading * (wisp.Speed * TickDt);
                 next = center + Vector3D.Normalize(next - center) * wisp.Altitude;
-                KeepAboveTerrain(planet, center, ref next, ref wisp.Altitude);
+                KeepAboveTerrain(planet, center, ref next, ref wisp.Altitude, wisp.InStorm ? StormSurfaceClearance : TerrainClearance);
 
                 wisp.Heading = heading;
                 wisp.Position = next;
@@ -459,7 +469,7 @@ namespace OsmiumAlienWorld
 
             Vector3D rough = center + radial * altitude + tangent * (Math.Cos(angle) * arc) + bitangent * (Math.Sin(angle) * arc);
             Vector3D position = center + Vector3D.Normalize(rough - center) * altitude;
-            KeepAboveTerrain(planet, center, ref position, ref altitude);
+            KeepAboveTerrain(planet, center, ref position, ref altitude, storm ? StormSurfaceClearance : TerrainClearance);
             altitude = Clamp(altitude, storm ? planet.AverageRadius + 80.0 : inner, outer);
             position = center + Vector3D.Normalize(position - center) * altitude;
 
@@ -760,16 +770,16 @@ namespace OsmiumAlienWorld
                 effect.UserScale = 3.6f;
                 effect.UserRadiusMultiplier = 2.6f;
                 effect.UserBirthMultiplier = 2.4f;
-                effect.UserColorMultiplier = WispGreen;
                 _effects[id] = effect;
             }
 
             Vector3D forwardNow = velocity.LengthSquared() > 1.0 ? Vector3D.Normalize(velocity) : new Vector3D(0, 0, -1);
             Vector3D upNow = Vector3D.CalculatePerpendicularVector(forwardNow);
+            effect.UserColorMultiplier = ColorForSpeed(velocity.Length());
             effect.WorldMatrix = MatrixD.CreateWorld(position, forwardNow, upNow);
             effect.SetTranslation(position);
             effect.Velocity = (Vector3)(forwardNow * -22.0);
-            ConsiderTrail(id, position);
+            ConsiderTrail(id, position, velocity);
         }
 
         void RemoveStaleEffects(HashSet<int> live)
@@ -791,7 +801,7 @@ namespace OsmiumAlienWorld
             }
         }
 
-        void ConsiderTrail(int id, Vector3D position)
+        void ConsiderTrail(int id, Vector3D position, Vector3D velocity)
         {
             Vector3D anchor;
             if (!_trailAnchor.TryGetValue(id, out anchor))
@@ -804,15 +814,15 @@ namespace OsmiumAlienWorld
                 return;
 
             _trailAnchor[id] = position;
-            SpawnBurst(ParticleName, anchor, 2.2f, 1.7f, TrailLifeTicks);
+            SpawnBurst(ParticleName, anchor, 2.2f, 1.7f, TrailLifeTicks, ColorForSpeed(velocity.Length()));
         }
 
         void SpawnSplash(Vector3D position)
         {
-            SpawnBurst("Damage_Electrical_Damaged", position, 2.2f, 1.6f, SplashLifeTicks);
+            SpawnBurst("Damage_Electrical_Damaged", position, 2.2f, 1.6f, SplashLifeTicks, WispGreen);
         }
 
-        void SpawnBurst(string name, Vector3D position, float scale, float radius, int lifeTicks)
+        void SpawnBurst(string name, Vector3D position, float scale, float radius, int lifeTicks, Vector4 color)
         {
             if (MyAPIGateway.Utilities.IsDedicated)
                 return;
@@ -830,7 +840,7 @@ namespace OsmiumAlienWorld
             effect.UserScale = scale;
             effect.UserRadiusMultiplier = radius;
             effect.UserBirthMultiplier = 2f;
-            effect.UserColorMultiplier = WispGreen;
+            effect.UserColorMultiplier = color;
             effect.Velocity = Vector3.Zero;
 
             FleetingEffect fleeting = new FleetingEffect();
@@ -967,21 +977,30 @@ namespace OsmiumAlienWorld
                 IMyPlayer listener = MyAPIGateway.Session.LocalHumanPlayer;
                 if (listener != null && listener.Controller != null && listener.Controller.ControlledEntity != null)
                     anchor = listener.Controller.ControlledEntity.Entity as MyEntity;
-                emitter = new MyEntity3DSoundEmitter(anchor, false, 0f);
+                if (anchor == null)
+                    return;
+                emitter = new MyEntity3DSoundEmitter(anchor, true, 0f);
                 emitter.Force3D = true;
-                emitter.CustomMaxDistance = HumRange + 40f;
+                emitter.CustomMaxDistance = HumRange + 80f;
                 emitter.CustomVolume = 1f;
                 _hums[candidate.Id] = emitter;
+                _humRetry[candidate.Id] = 0;
             }
 
             emitter.SetPosition(candidate.Position);
-            if (!emitter.IsPlaying)
-                emitter.PlaySound(_humPair, true, false, false, true);
             double dist = Math.Sqrt(candidate.DistSq);
             float closeness = 1f - (float)(dist / HumRange);
             if (closeness < 0f)
                 closeness = 0f;
-            emitter.VolumeMultiplier = 0.22f + 0.78f * closeness;
+            emitter.VolumeMultiplier = 0.35f + 0.65f * closeness;
+            int retry;
+            if (!_humRetry.TryGetValue(candidate.Id, out retry))
+                retry = 0;
+            if (!emitter.IsPlaying && _tick >= retry)
+            {
+                emitter.PlaySound(_humPair, true, false, false, true, false, true);
+                _humRetry[candidate.Id] = _tick + 30;
+            }
             emitter.Update();
         }
 
@@ -994,6 +1013,7 @@ namespace OsmiumAlienWorld
                 emitter.Cleanup();
             }
             _hums.Remove(id);
+            _humRetry.Remove(id);
         }
 
         void SilenceHums()
@@ -1068,6 +1088,28 @@ namespace OsmiumAlienWorld
             if (MyAPIGateway.Session == null || MyAPIGateway.Session.WeatherEffects == null)
                 return false;
             return IsStormName(MyAPIGateway.Session.WeatherEffects.GetWeather(position));
+        }
+
+        bool PlayerInStorm(Vector3D position)
+        {
+            for (int i = 0; i < _players.Count; i++)
+            {
+                Vector3D playerPos = _players[i].GetPosition();
+                if (Vector3D.DistanceSquared(playerPos, position) > PlayerRangeSq)
+                    continue;
+                if (IsStormAt(playerPos))
+                    return true;
+            }
+
+            return false;
+        }
+
+        static Vector3D GridVelocity(long entityId)
+        {
+            IMyEntity entity;
+            if (!MyAPIGateway.Entities.TryGetEntityById(entityId, out entity) || entity == null || entity.Physics == null)
+                return Vector3D.Zero;
+            return entity.Physics.LinearVelocity;
         }
 
         static bool IsStormName(string name)
@@ -1187,37 +1229,55 @@ namespace OsmiumAlienWorld
             const double slow = 32.0;
             const double cruise = 100.0;
             const double fast = 130.0;
-            const double accel = 55.0;
             double desired = cruise;
             double turn = 1.15;
 
-            if (wisp.HasTarget)
+            Vector3D flat = wisp.Target - wisp.Position;
+            flat -= radial * Vector3D.Dot(flat, radial);
+            double dist = flat.Length();
+            double align = 1.0;
+            if (dist > 1.0)
             {
-                Vector3D to = wisp.Target - wisp.Position;
-                to -= radial * Vector3D.Dot(to, radial);
-                double dist = to.Length();
-                double align = 1.0;
-                if (dist > 1.0)
-                {
-                    align = Vector3D.Dot(heading, to / dist);
-                    if (align > 1.0)
-                        align = 1.0;
-                    if (align < -1.0)
-                        align = -1.0;
-                }
-
-                if (dist < 180.0)
-                    turn = 2.4;
-
-                if (align > 0.92 && dist > 25.0)
-                    desired = fast;
-                else
-                    desired = Clamp(Math.Max(16.0, dist * (1.0 - align) * 0.5) * turn, slow, cruise);
-
-                double vertical = Math.Abs((wisp.Target - center).Length() - wisp.Altitude);
-                if (vertical > 35.0 && dist < 250.0)
-                    desired = Math.Min(desired, 45.0);
+                align = Vector3D.Dot(heading, flat / dist);
+                if (align > 1.0)
+                    align = 1.0;
+                if (align < -1.0)
+                    align = -1.0;
             }
+
+            if (dist < 180.0)
+                turn = 2.4;
+
+            if (align > 0.92 && dist > 25.0)
+                desired = fast;
+            else
+                desired = Clamp(Math.Max(16.0, dist * (1.0 - align) * 0.5) * turn, slow, cruise);
+
+            Vector3D gap = wisp.Target - wisp.Position;
+            double gapLen = gap.Length();
+            double opening = 0.0;
+            if (gapLen > 1.0)
+                opening = Vector3D.Dot(wisp.TargetVelocity - wisp.Velocity, gap / gapLen);
+            double vertical = Math.Abs((wisp.Target - center).Length() - wisp.Altitude);
+            if (vertical > 35.0 && dist < 250.0 && wisp.Boost < 0.2)
+                desired = Math.Min(desired, 45.0);
+
+            bool wantBoost = gapLen > 200.0 && align > 0.45 && (opening > 8.0 || gapLen > 550.0 || vertical > 450.0);
+            double boostRate = (wantBoost ? 0.14 : 0.035) * TickDt;
+            if (wantBoost)
+                wisp.Boost = Math.Min(1.0, wisp.Boost + boostRate);
+            else
+                wisp.Boost = Math.Max(0.0, wisp.Boost - boostRate);
+
+            if (wisp.Boost > 0.02)
+                desired = desired + (BoostSpeed - desired) * wisp.Boost;
+            turn *= 1.0 - 0.78 * wisp.Boost;
+
+            double accel = 55.0;
+            if (wisp.Boost > 0.2 && wisp.Speed < desired)
+                accel = 26.0;
+            else if (wisp.Speed > desired + 5.0)
+                accel = 8.0;
 
             double step = accel * TickDt;
             if (wisp.Speed < desired)
@@ -1226,6 +1286,52 @@ namespace OsmiumAlienWorld
                 wisp.Speed = Math.Max(desired, wisp.Speed - step);
 
             return turn;
+        }
+
+        static Vector3D LeadPoint(Wisp wisp)
+        {
+            double speed = wisp.Speed + (BoostSpeed - wisp.Speed) * wisp.Boost;
+            if (speed < 40.0)
+                speed = 40.0;
+
+            double time;
+            if (!SolveIntercept(wisp.Position, speed, wisp.Target, wisp.TargetVelocity, out time))
+                return wisp.Target;
+            if (time > 12.0)
+                time = 12.0;
+            return wisp.Target + wisp.TargetVelocity * time;
+        }
+
+        static bool SolveIntercept(Vector3D from, double speed, Vector3D target, Vector3D targetVelocity, out double time)
+        {
+            time = 0.0;
+            Vector3D offset = target - from;
+            double a = targetVelocity.LengthSquared() - speed * speed;
+            double b = 2.0 * Vector3D.Dot(offset, targetVelocity);
+            double c = offset.LengthSquared();
+            const double soonest = 0.05;
+
+            if (Math.Abs(a) < 0.001)
+            {
+                if (Math.Abs(b) < 0.001)
+                    return false;
+                time = -c / b;
+                return time > soonest;
+            }
+
+            double disc = b * b - 4.0 * a * c;
+            if (disc < 0.0)
+                return false;
+
+            double root = Math.Sqrt(disc);
+            double first = (-b - root) / (2.0 * a);
+            double second = (-b + root) / (2.0 * a);
+            time = -1.0;
+            if (first > soonest)
+                time = first;
+            if (second > soonest && (time < 0.0 || second < time))
+                time = second;
+            return time > 0.0;
         }
 
         static void SteerToward(ref Vector3D heading, Vector3D desired, Vector3D radial, double maxTurn)
@@ -1271,17 +1377,18 @@ namespace OsmiumAlienWorld
             {
                 double targetAlt = Clamp((wisp.Target - center).Length(), minAlt, maxAlt);
                 double step = AltitudeChaseSpeed * TickDt;
+                if (wisp.Boost > 0.15)
+                    step *= 1.0 + 1.6 * wisp.Boost;
                 if (wisp.Altitude < targetAlt)
                     wisp.Altitude = Math.Min(wisp.Altitude + step, targetAlt);
                 else
                     wisp.Altitude = Math.Max(wisp.Altitude - step, targetAlt);
             }
-            else if (!wisp.InStorm && wisp.Altitude < BandInnerRadius(planet))
-            {
-                wisp.Altitude = Math.Min(BandInnerRadius(planet), wisp.Altitude + AltitudeChaseSpeed * TickDt);
-            }
 
-            wisp.Altitude = Clamp(wisp.Altitude, minAlt, maxAlt);
+            if (wisp.Altitude > maxAlt)
+                wisp.Altitude = maxAlt;
+            if (wisp.Altitude < minAlt)
+                wisp.Altitude = Math.Min(minAlt, wisp.Altitude + AltitudeChaseSpeed * TickDt);
         }
 
         static void AvoidTerrain(MyPlanet planet, Vector3D center, Vector3D radial, ref Vector3D heading, Wisp wisp)
@@ -1296,17 +1403,34 @@ namespace OsmiumAlienWorld
             double farHeight = planet.GetHeightFromSurface(far);
             double lowest = nearHeight < farHeight ? nearHeight : farHeight;
 
-            if (lowest < 180.0)
+            if (wisp.InStorm)
+            {
+                double here = planet.GetHeightFromSurface(wisp.Position);
+                if (here < 100.0)
+                {
+                    double closeness = 1.0 - Clamp(here / 100.0, 0.0, 1.0);
+                    double cap = 150.0 - closeness * 120.0;
+                    if (wisp.Speed > cap)
+                        wisp.Speed -= 60.0 * TickDt;
+                }
+
+                Vector3D soon = SampleAhead(center, wisp.Position, heading, 40.0, wisp.Altitude);
+                double soonHeight = planet.GetHeightFromSurface(soon);
+                double worst = here < soonHeight ? here : soonHeight;
+                if (worst < StormSurfaceClearance)
+                    wisp.Altitude += StormSurfaceClearance - worst;
+            }
+            else if (lowest < 180.0)
             {
                 double rate = lowest < TerrainClearance ? 140.0 : 75.0;
                 wisp.Altitude += rate * TickDt;
-                if (!wisp.InStorm && wisp.Altitude > BandOuterRadius(planet))
+                if (wisp.Altitude > BandOuterRadius(planet))
                     wisp.Altitude = BandOuterRadius(planet);
                 if (wisp.Speed > 40.0)
                     wisp.Speed -= 50.0 * TickDt;
             }
 
-            if (lowest < 100.0)
+            if (!wisp.InStorm && lowest < 100.0)
             {
                 Vector3D leftDir = Vector3D.Cross(radial, heading);
                 if (leftDir.LengthSquared() < 0.01)
@@ -1329,13 +1453,13 @@ namespace OsmiumAlienWorld
             return center + Vector3D.Normalize(offset) * altitude;
         }
 
-        static void KeepAboveTerrain(MyPlanet planet, Vector3D center, ref Vector3D position, ref double altitude)
+        static void KeepAboveTerrain(MyPlanet planet, Vector3D center, ref Vector3D position, ref double altitude, double clearance)
         {
             double height = planet.GetHeightFromSurface(position);
-            if (height >= TerrainClearance)
+            if (height >= clearance)
                 return;
 
-            altitude += TerrainClearance - height;
+            altitude += clearance - height;
             Vector3D radial = position - center;
             if (radial.LengthSquared() < 1.0)
                 radial = new Vector3D(0, 1, 0);
@@ -1350,6 +1474,17 @@ namespace OsmiumAlienWorld
         static double BandOuterRadius(MyPlanet planet)
         {
             return planet.AverageRadius + planet.AtmosphereAltitude * BandOuter;
+        }
+
+        static Vector4 ColorForSpeed(double speed)
+        {
+            double charge = (speed - 110.0) / (BoostSpeed - 110.0);
+            if (charge < 0.0)
+                charge = 0.0;
+            if (charge > 1.0)
+                charge = 1.0;
+            Vector4 hot = new Vector4(3.4f, 1.55f, 0.4f, 1f);
+            return WispGreen * (float)(1.0 - charge) + hot * (float)charge;
         }
 
         static double Clamp(double value, double min, double max)
@@ -1370,6 +1505,8 @@ namespace OsmiumAlienWorld
             public Vector3D Heading;
             public Vector3D Velocity;
             public double Speed;
+            public double Boost;
+            public Vector3D TargetVelocity;
             public double TurnRate;
             public bool HasTarget;
             public long TargetId;
