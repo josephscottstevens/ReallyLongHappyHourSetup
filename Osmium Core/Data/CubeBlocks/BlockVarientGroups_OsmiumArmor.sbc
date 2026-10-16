@@ -80,5 +80,51 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallOsmiumBlockArmorRoundCornerInv" />
             </Blocks>
         </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumSlopedCorners" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <DisplayName>OsmiumSlopedCorners</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopedCornerTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorRaisedSlopedCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSquareSlopedCornerTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSquareSlopedCornerBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSquareSlopedCornerTipInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopedCornerBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopedCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorHalfSlopedCornerBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopedCornerTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorRaisedSlopedCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSquareSlopedCornerTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSquareSlopedCornerBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSquareSlopedCornerTipInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopedCornerBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopedCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorHalfSlopedCornerBase" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOsmiumTransitionBlocks" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
+            <DisplayName>OsmiumTransitionBlocks</DisplayName>
+            <Description>OsmiumArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransitionBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransition" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransitionTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransitionBaseMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransitionMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockOsmiumArmorSlopeTransitionTipMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransitionBase" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransition" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransitionTip" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransitionBaseMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransitionMirrored" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockOsmiumArmorSlopeTransitionTipMirrored" />
+            </Blocks>
+        </BlockVariantGroup>
     </BlockVariantGroups>
 </Definitions>

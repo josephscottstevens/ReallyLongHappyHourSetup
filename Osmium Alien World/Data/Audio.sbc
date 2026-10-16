@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>OsmiumWispHum</SubtypeId>
+      </Id>
+      <Category>Particle</Category>
+      <MaxDistance>280</MaxDistance>
+      <UpdateDistance>320</UpdateDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <SoundLimit>4</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\OsmiumWispHum.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
